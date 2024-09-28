@@ -1,0 +1,2 @@
+SELECT * FROM t_ma WHERE UPPER(ort) = 'HAMBURG';
+ 

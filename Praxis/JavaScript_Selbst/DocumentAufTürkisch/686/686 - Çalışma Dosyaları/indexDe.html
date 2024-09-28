@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de-DE">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Zusätzliche Bildung</title>
+</head>
+
+<body onload="beispiel()">
+	<div>Sicherheitscode :</div>
+	<br />
+	<canvas id="sicherheitscodebereich" width="150" height="50"></canvas>
+	<br /><br />
+	<button onclick="ändern()">Code ändern</button>
+
+	<script type="text/javascript" language="javascript">
+
+		// Funktion, die beim Laden der Seite aufgerufen wird
+		function beispiel() {
+			// Holt den Canvas-Element und setzt den 2D-Kontext
+			operation = document.getElementById("sicherheitscodebereich").getContext("2d");
+			// Setzt die Hintergrundfarbe des Canvas
+			operation.fillStyle = "#e6cd57";
+			// Ruft die Funktion auf, um den Sicherheitscode zu generieren und darzustellen
+			ändern();
+		}
+
+		// Funktion, die den Sicherheitscode generiert und darstellt
+		function ändern() {
+			// Initialisiert eine leere Zeichenkette für den Sicherheitscode
+			var text = "";
+			// Generiert 6 Zufallszeichen für den Sicherheitscode
+			for (var anfang = 0; anfang < 6; anfang++) {
+				// Generiert eine Zufallszahl zwischen 0 und 1
+				var zufallszahl = Math.random();
+				// Wenn die Zufallszahl 0 ist, fügt eine Zufallszahl zwischen 0 und 9 hinzu
+				if (Math.round(zufallszahl) == 0) {
+					text += String.fromCharCode(48 + 9 * Math.random());
+				}
+				// Wenn die Zufallszahl 1 ist, fügt einen Zufallsbuchstaben zwischen A und Z hinzu
+				else {
+					text += String.fromCharCode(65 + 25 * Math.random());
+				}
+			}
+			// Löscht den Canvas
+			operation.clearRect(0, 0, 150, 50);
+			// Zeichnet den Hintergrund des Canvas
+			operation.fillRect(0, 0, 150, 50);
+			// Setzt die Schriftart und -größe für den Sicherheitscode
+			operation.font = "30px calibri";
+			// Zeichnet den Sicherheitscode auf den Canvas
+			operation.strokeText(text, 24, 34);
+		}
+
+	</script>
+</body>
+
+</html>

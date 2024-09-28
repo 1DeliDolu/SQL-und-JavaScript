@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Ein leeres Element mit Attributen
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="internationalPrice">
+	  <xs:complexType>
+	    <xs:attribute name="currency" type="currencyType" 
+						use="optional" default="EUR"/>		
+	    <xs:attribute name="value" type="xs:decimal" 
+						use="required"/>
+	  </xs:complexType>
+	</xs:element>
+	<xs:simpleType name="currencyType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EUR"/>
+			<xs:enumeration value="USD"/>
+			<xs:enumeration value="YEN"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

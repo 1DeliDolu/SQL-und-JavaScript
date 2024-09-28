@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 1rem 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    background-color: floralwhite;
+}
+
+label {
+    display: inline-block;
+    width: 9rem;
+}
+
+/* ab hier neu für Kontaktliste */
+#ausgabe>table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    font-size: 0.9rem;
+}
+
+#ausgabe>table th,
+#ausgabe>table td {
+    padding: 0.5rem;
+    border: 1px solid #666;
+}
+
+#ausgabe>table th {
+    text-align: left;
+}
+
+#ausgabe>table img {
+    width: 16px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#ausgabe>table img:hover {
+    opacity: 0.5;
+}   
+
+#ablage {
+    width: 300px;
+height: 300px;
+border: 1px dashed black;
+margin: 10px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 24px;
+font-weight: bold;
+background-color: rgba(0, 0, 0, 0.5);
+cursor: move;
+transition: background-color 0.3s ease;
+background-repeat: no-repeat;
+background-position: center center;
+}

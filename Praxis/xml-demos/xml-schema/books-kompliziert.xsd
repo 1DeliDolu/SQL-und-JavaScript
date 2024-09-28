@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Schema für Buchkatalog
+		Testdatei: books.xml
+		</xs:documentation>
+	</xs:annotation>
+  <!-- Komplexer Datentyp wird definiert,
+    damit das Element book um ein Attribut erweitert werden kann -->
+  <xs:complexType name="booktype">
+    <xs:sequence>
+      <xs:element name="author" type="xs:string" />
+      <xs:element name="title" type="xs:string" />
+      <xs:element name="genre">
+        <xs:simpleType>
+          <!-- Um eine Fassette zu definieren, wird der Typ beschränkt -->
+          <xs:restriction base="xs:string">
+            <!-- Aufzählung zulässiger Werte -->
+            <xs:enumeration value="Computer"/>
+            <xs:enumeration value="Horror"/>
+            <xs:enumeration value="Science Fiction"/>
+            <xs:enumeration value="Romance"/>
+            <xs:enumeration value="Fantasy"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+            <xs:minInclusive value="3"/> 
+            <xs:maxInclusive value="100"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="publish_date" type="xs:date"/>
+      <xs:element name="description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!-- Hier wird die Struktur des Wurzelelements definiert -->
+	<xs:element name="catalog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="book" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:complexContent>
+              <!-- Um ein Attribut zu deklarieren wird der Type erweitert -->
+              <xs:extension base="booktype">
+                <xs:attribute name="id" type="xs:ID" use="required"/>
+              </xs:extension>
+            </xs:complexContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

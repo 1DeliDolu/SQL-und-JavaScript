@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Wertebereiche von Zahlen eingrenzen
+			minInclusive oder minExclusive
+			maxInclusive oder maxExclusive
+		Anzahl Stellen gesamt: 	
+			totalDigits
+		Anzahl Stellen nach dem Dezimalpunkt
+			fractionDigits
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="preis">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:fractionDigits value="2" />
+				<xs:totalDigits value="5" />
+				<xs:minInclusive value="50" />
+				<xs:maxInclusive value="500" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

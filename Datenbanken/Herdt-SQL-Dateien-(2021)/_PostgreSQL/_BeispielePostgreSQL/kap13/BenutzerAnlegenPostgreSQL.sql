@@ -1,0 +1,5 @@
+CREATE ROLE fmueller LOGIN;
+CREATE ROLE pfunke LOGIN;
+CREATE ROLE pscherhorn LOGIN PASSWORD 'passwort' SUPERUSER;
+CREATE USER jbossert PASSWORD 'passwort' CREATEDB;
+

@@ -1,0 +1,18 @@
+#ablage {
+  width: 300px;
+  height: 300px;
+  border: 1px dashed black;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap ;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: move;
+  transition: background-color 0.3s ease;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

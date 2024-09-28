@@ -1,0 +1,16 @@
+- title: README
+  file: /README
+- title: Erste-Schritte
+  file: /Erste-Schritte/Erste-Schritte
+  sections: []
+-  title: Erste-Schritte
+  file: /Erste-Schritte/Erste-Schritte
+  sections:
+    - title: 1.ERDPluss Export
+      file: /Erste-Schritte/1_ERDPluss_Export
+    - title: 2.Datenbank Objekte
+      file: /Erste-Schritte/2_Datenbank_Objekte
+    - title: 3.Insert Anweisung
+      file: /Erste-Schritte/3_Insert_Anweisung
+    - title: ErsteSchritt
+      file: /Erste-Schritte/ErsteSchritt

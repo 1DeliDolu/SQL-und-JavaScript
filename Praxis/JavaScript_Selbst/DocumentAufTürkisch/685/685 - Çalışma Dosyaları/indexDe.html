@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Ausbildung</title>
+<script type="text/javascript" language="javascript">
+function formkontrolle(){
+    if(document.getElementById("benutzername").value==""){
+        alert("Benutzername darf nicht leer sein!");
+        document.mitgliedschaftsformular.benutzername.focus();
+        return;
+    }
+    if(document.getElementById("benutzername").value!=""){
+        if(document.getElementById("benutzername").value.length<4 || document.getElementById("benutzername").value.length>25){
+            alert("Benutzername muss zwischen 4 und 25 Zeichen lang sein!");
+            document.mitgliedschaftsformular.benutzername.value = "";
+            document.mitgliedschaftsformular.benutzername.focus();
+            return;
+        }		
+    }
+    if(document.getElementById("benutzersicherheit").value==""){
+        alert("Benutzersicherheit darf nicht leer sein!");
+        document.mitgliedschaftsformular.benutzersicherheit.focus();
+        return;
+    }
+    if(document.getElementById("benutzersicherheit").value!=""){
+        if(document.getElementById("benutzersicherheit").value.length<4 || document.getElementById("benutzersicherheit").value.length>25){
+            alert("Benutzersicherheit muss zwischen 4 und 25 Zeichen lang sein!");
+            document.mitgliedschaftsformular.benutzersicherheit.value = "";
+            document.mitgliedschaftsformular.benutzersicherheitwiederholen.value = "";
+            document.mitgliedschaftsformular.benutzersicherheit.focus();
+            return;
+        }		
+    }
+    if(document.getElementById("benutzersicherheitwiederholen").value==""){
+        alert("Benutzersicherheit wiederholen darf nicht leer sein!");
+        document.mitgliedschaftsformular.benutzersicherheitwiederholen.focus();
+        return;
+    }
+    if(document.getElementById("benutzersicherheitwiederholen").value!=""){
+        if(document.getElementById("benutzersicherheitwiederholen").value.length<4 || document.getElementById("benutzersicherheitwiederholen").value.length>25){
+            alert("Benutzersicherheit wiederholen muss zwischen 4 und 25 Zeichen lang sein!");
+            document.mitgliedschaftsformular.benutzersicherheit.value = "";
+            document.mitgliedschaftsformular.benutzersicherheitwiederholen.value = "";
+            document.mitgliedschaftsformular.benutzersicherheit.focus();
+            return;
+        }		
+    }
+    if(document.getElementById("benutzersicherheit").value!="" && document.getElementById("benutzersicherheitwiederholen").value!=""){
+        if(document.getElementById("benutzersicherheit").value!=document.getElementById("benutzersicherheitwiederholen").value){
+            alert("Benutzersicherheit und Benutzersicherheit wiederholen stimmen nicht überein!");
+            document.mitgliedschaftsformular.benutzersicherheit.value = "";
+            document.mitgliedschaftsformular.benutzersicherheitwiederholen.value = "";
+            document.mitgliedschaftsformular.benutzersicherheit.focus();
+            return;
+        }
+    }
+    if(document.getElementById("emailadresse").value==""){
+        alert("E-Mail-Adresse darf nicht leer sein!");
+        document.mitgliedschaftsformular.emailadresse.focus();
+        return;
+    }
+    if(document.getElementById("emailadresse").value!=""){
+        if(document.getElementById("emailadresse").value.indexOf("@", 0) == -1 || document.getElementById("emailadresse").value.indexOf(".", 0) == -1){
+            alert("E-Mail-Adresse ist ungültig!");
+            document.mitgliedschaftsformular.emailadresse.value = "";
+            document.mitgliedschaftsformular.emailadresse.focus();
+            return;
+        }
+    }
+    if(document.getElementsByName("geschlecht")[0].checked==false && document.getElementsByName("geschlecht")[1].checked==false){
+        alert("Geschlecht muss ausgewählt werden!");
+        return;
+    }
+    if(document.getElementsByName("hobbys")[0].checked==false && document.getElementsByName("hobbys")[1].checked==false && document.getElementsByName("hobbys")[2].checked==false){
+        alert("Hobbys müssen ausgewählt werden!");
+        return;
+    }
+    if(document.getElementById("benutzernotiz").value==""){
+        alert("Benutzernotiz darf nicht leer sein!");
+        document.mitgliedschaftsformular.benutzernotiz.focus();
+        return;
+    }
+    
+    document.mitgliedschaftsformular.submit();
+}
+</script>
+</head>
+
+<body>
+<form id="mitgliedschaftsformular" name="mitgliedschaftsformular" action="xxx.php" method="post">
+<table>
+    <tr>
+        <th colspan="3">Mitgliedschaftsformular</th>
+    </tr>
+    <tr>
+        <td>Benutzername</td>
+        <td>:</td>
+        <td><input type="text" id="benutzername" name="benutzername"></td>
+    </tr>
+    <tr>
+        <td>Benutzersicherheit</td>
+        <td>:</td>
+        <td><input type="password" id="benutzersicherheit" name="benutzersicherheit"></td>
+    </tr>
+    <tr>
+        <td>Benutzersicherheit wiederholen</td>
+        <td>:</td>
+        <td><input type="password" id="benutzersicherheitwiederholen" name="benutzersicherheitwiederholen"></td>
+    </tr>
+    <tr>
+        <td>E-Mail-Adresse</td>
+        <td>:</td>
+        <td><input type="text" id="emailadresse" name="emailadresse"></td>
+    </tr>
+    <tr>
+        <td>Geschlecht</td>
+        <td>:</td>
+        <td><input type="radio" id="geschlecht1" name="geschlecht" value="Männlich"> Männlich <input type="radio" id="geschlecht2" name="geschlecht" value="Weiblich"> Weiblich</td>
+    </tr>
+    <tr>
+        <td>Hobbys</td>
+        <td>:</td>
+        <td><input type="checkbox" id="hobbys1" name="hobbys" value="Einkaufen"> Einkaufen <input type="checkbox" id="hobbys2" name="hobbys" value="Reisen"> Reisen <input type="checkbox" id="hobbys3" name="hobbys" value="Musik"> Musik</td>
+    </tr>
+    <tr>
+        <td>Notiz</td>
+        <td>:</td>
+        <td><textarea id="benutzernotiz" name="benutzernotiz"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center;"><input type="button" value="Senden" onclick="formkontrolle()"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

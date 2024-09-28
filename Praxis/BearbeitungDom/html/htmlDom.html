@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+    <link rel="stylesheet" href="css/dark.css">
+</head>
+<body id="dark">
+   
+       
+    <main >
+        <h1 id="intro-text"  >Into to the Objekt Document</h1>
+   
+        <p>This is some content to dispaly in the document</p>
+        <div class="custom-bg"></div>
+        <div><p>Here is more content inside a div element</p></div>
+        <div> <p>And even more content inside a nested div element</p></div>
+        
+        <div> <button onclick="document.body.classList.toggle('dark')">Toggle Style</button></div>
+       
+    </main>
+
+    <script>
+        let h1Element =document.getElementById('intro-text');
+        h1Element.firstChild.nodeValue = "The get Methods!";
+        h1Element.style.color = 'yellow';
+        let pElements = document.getElementsByTagName('p');
+        for (let pElement of pElements) {
+             if(pElement.parentNode.tagName== "div"){
+                pElement.style.color = 'violet';
+            
+        }
+    }
+        let customDivs=document.getElementsByClassName('custom-bg');
+        for (let customDiv of customDivs) {
+            customDiv.style.backgroundColor = 'dimgray';
+            
+        }
+        let pElementInDiv=document.querySelectorAll('div p');
+        for (let pElement of pElementInDiv) {
+            pElement.style.fontWeight = 'bold';
+        }
+        let specialP= document.querySelector('div>p:not(div.custom-bg>p)');
+        specialP.style.textDecoration = 'underline';
+
+        
+    </script>
+</body>
+</html>

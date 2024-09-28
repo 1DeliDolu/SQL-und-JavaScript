@@ -1,0 +1,13 @@
+<KundenBestellungen>
+	<row KundenNr="1" Firma="Alfreds Futterkiste" Bestelldatum="2018-02-17" Rechnungsbetrag="388.35" />
+	<row KundenNr="1" Firma="Alfreds Futterkiste" Bestelldatum="2018-05-06" Rechnungsbetrag="244.30" />
+	<row KundenNr="2" Firma="Ana Trujillo Emparedados y helados" Bestelldatum="2018-01-13" Rechnungsbetrag="1764.00" />
+	<row KundenNr="2" Firma="Ana Trujillo Emparedados y helados" Bestelldatum="2018-02-17" Rechnungsbetrag="2200.00" />
+	<row KundenNr="2" Firma="Ana Trujillo Emparedados y helados" Bestelldatum="2018-03-16" Rechnungsbetrag="4675.00" />
+	<row KundenNr="2" Firma="Ana Trujillo Emparedados y helados" Bestelldatum="2018-04-21" Rechnungsbetrag="751.00" />
+	<row KundenNr="2" Firma="Ana Trujillo Emparedados y helados" Bestelldatum="2018-05-06" Rechnungsbetrag="586.00" />
+	<row KundenNr="3" Firma="Antonio Moreno Taquería" Bestelldatum="2018-02-07" Rechnungsbetrag="310.00" />
+	<row KundenNr="3" Firma="Antonio Moreno Taquería" Bestelldatum="2018-02-18" Rechnungsbetrag="5502.11" />
+	<row KundenNr="3" Firma="Antonio Moreno Taquería" Bestelldatum="2018-03-14" Rechnungsbetrag="2362.25" />
+	<row KundenNr="3" Firma="Antonio Moreno Taquería" Bestelldatum="2018-05-06" Rechnungsbetrag="1057.00" />
+</KundenBestellungen>

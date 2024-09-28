@@ -1,0 +1,64 @@
+[
+    {
+        "KundenNr": 1,
+        "Firma": "Alfreds Futterkiste",
+        "Bestellung": [
+            {
+                "Bestelldatum": "2018-02-17",
+                "Rechnungsbetrag": 388.35
+            },
+            {
+                "Bestelldatum": "2018-05-06",
+                "Rechnungsbetrag": 244.30
+            }
+        ]
+    },
+    {
+        "KundenNr": 2,
+        "Firma": "Ana Trujillo Emparedados y helados",
+        "Bestellung": [
+            {
+                "Bestelldatum": "2018-01-13",
+                "Rechnungsbetrag": 1764.00
+            },
+            {
+                "Bestelldatum": "2018-02-17",
+                "Rechnungsbetrag": 2200.00
+            },
+            {
+                "Bestelldatum": "2018-03-16",
+                "Rechnungsbetrag": 4675.00
+            },
+            {
+                "Bestelldatum": "2018-04-21",
+                "Rechnungsbetrag": 751.00
+            },
+            {
+                "Bestelldatum": "2018-05-06",
+                "Rechnungsbetrag": 586.00
+            }
+        ]
+    },
+    {
+        "KundenNr": 3,
+        "Firma": "Antonio Moreno Taquería",
+        "Bestellung": [
+            {
+                "Bestelldatum": "2018-02-07",
+                "Rechnungsbetrag": 310.00
+            },
+            {
+                "Bestelldatum": "2018-02-18",
+                "Rechnungsbetrag": 5502.11
+            },
+            {
+                "Bestelldatum": "2018-03-14",
+                "Rechnungsbetrag": 2362.25
+            },
+            {
+                "Bestelldatum": "2018-05-06",
+                "Rechnungsbetrag": 1057.00
+            }
+        ]
+    }
+]

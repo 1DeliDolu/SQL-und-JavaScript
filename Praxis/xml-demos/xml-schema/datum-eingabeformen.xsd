@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Datumsformat noch ohne Begrenzung des Werts,
+		zum testen von Eingabeformaten
+		einfach YYYY-MM-DD   Bsp. 2008-08-15
+		mit Zeitzone YYYY-MM-DD(+-)hh:mm
+		Bsp. 2008-08-15+01:00 	Mitteleuropäische Zeit
+		Bsp. 2008-08-15-05:00 	EST Eastern Standard Time, New York
+		Bsp. 2008-08-15-08:00 	PST Pacific Standard Time, San Francisco
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="terminliste">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="termin" maxOccurs="unbounded" >
+					<xs:simpleType>
+						<xs:restriction base="xs:date">
+							<xs:minInclusive value="2021-01-01" />
+							<xs:maxInclusive value="2021-12-31" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,221 @@
+[
+    {
+        "KundenNr": 1,
+        "Firma": "Alfreds Futterkiste",
+        "Bestellungen": [
+            {
+                "Bestelldatum": "2018-02-17",
+                "Rechnungssumme": 388.35,
+                "Positionen": [
+                    {
+                        "Produkt": "Nord-Ost Matjeshering",
+                        "Menge": 15,
+                        "Verkaufspreis": 25.89
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-05-06",
+                "Rechnungssumme": 244.30,
+                "Positionen": [
+                    {
+                        "Produkt": "Pavlova",
+                        "Menge": 14,
+                        "Verkaufspreis": 17.45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "KundenNr": 2,
+        "Firma": "Ana Trujillo Emparedados y helados",
+        "Bestellungen": [
+            {
+                "Bestelldatum": "2018-01-13",
+                "Rechnungssumme": 1764.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Chang",
+                        "Menge": 10,
+                        "Verkaufspreis": 19.00
+                    },
+                    {
+                        "Produkt": "Northwoods Cranberry Sauce",
+                        "Menge": 20,
+                        "Verkaufspreis": 40.00
+                    },
+                    {
+                        "Produkt": "Konbu",
+                        "Menge": 10,
+                        "Verkaufspreis": 6.00
+                    },
+                    {
+                        "Produkt": "Camembert Pierrot",
+                        "Menge": 21,
+                        "Verkaufspreis": 34.00
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-02-17",
+                "Rechnungssumme": 2200.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Raclette Courdavault",
+                        "Menge": 40,
+                        "Verkaufspreis": 55.00
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-03-16",
+                "Rechnungssumme": 4675.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Sir Rodney's Marmalade",
+                        "Menge": 50,
+                        "Verkaufspreis": 81.00
+                    },
+                    {
+                        "Produkt": "Gorgonzola Telino",
+                        "Menge": 50,
+                        "Verkaufspreis": 12.50
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-04-21",
+                "Rechnungssumme": 751.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Boston Crab Meat",
+                        "Menge": 5,
+                        "Verkaufspreis": 18.40
+                    },
+                    {
+                        "Produkt": "Filo Mix",
+                        "Menge": 2,
+                        "Verkaufspreis": 7.00
+                    },
+                    {
+                        "Produkt": "Fløtemysost",
+                        "Menge": 30,
+                        "Verkaufspreis": 21.50
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-05-06",
+                "Rechnungssumme": 586.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Chang",
+                        "Menge": 10,
+                        "Verkaufspreis": 19.00
+                    },
+                    {
+                        "Produkt": "Spegesild",
+                        "Menge": 30,
+                        "Verkaufspreis": 12.00
+                    },
+                    {
+                        "Produkt": "Lakkalikööri",
+                        "Menge": 2,
+                        "Verkaufspreis": 18.00
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "KundenNr": 3,
+        "Firma": "Antonio Moreno Taquería",
+        "Bestellungen": [
+            {
+                "Bestelldatum": "2018-02-07",
+                "Rechnungssumme": 310.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Ikura",
+                        "Menge": 10,
+                        "Verkaufspreis": 31.00
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-02-18",
+                "Rechnungssumme": 5502.11,
+                "Positionen": [
+                    {
+                        "Produkt": "Northwoods Cranberry Sauce",
+                        "Menge": 30,
+                        "Verkaufspreis": 40.00
+                    },
+                    {
+                        "Produkt": "Guaraná Fantástica",
+                        "Menge": 10,
+                        "Verkaufspreis": 4.50
+                    },
+                    {
+                        "Produkt": "Thüringer Rostbratwurst",
+                        "Menge": 24,
+                        "Verkaufspreis": 123.79
+                    },
+                    {
+                        "Produkt": "Nord-Ost Matjeshering",
+                        "Menge": 35,
+                        "Verkaufspreis": 25.89
+                    },
+                    {
+                        "Produkt": "Inlagd Sill",
+                        "Menge": 20,
+                        "Verkaufspreis": 19.00
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-03-14",
+                "Rechnungssumme": 2362.25,
+                "Positionen": [
+                    {
+                        "Produkt": "Valkoinen suklaa",
+                        "Menge": 9,
+                        "Verkaufspreis": 16.25
+                    },
+                    {
+                        "Produkt": "Manjimup Dried Apples",
+                        "Menge": 40,
+                        "Verkaufspreis": 53.00
+                    },
+                    {
+                        "Produkt": "Pâté chinois",
+                        "Menge": 4,
+                        "Verkaufspreis": 24.00
+                    }
+                ]
+            },
+            {
+                "Bestelldatum": "2018-05-06",
+                "Rechnungssumme": 1057.00,
+                "Positionen": [
+                    {
+                        "Produkt": "Grandma's Boysenberry Spread",
+                        "Menge": 20,
+                        "Verkaufspreis": 25.00
+                    },
+                    {
+                        "Produkt": "Tofu",
+                        "Menge": 20,
+                        "Verkaufspreis": 23.25
+                    },
+                    {
+                        "Produkt": "Teatime Chocolate Biscuits",
+                        "Menge": 10,
+                        "Verkaufspreis": 9.20
+                    }
+                ]
+            }
+        ]
+    }
+]

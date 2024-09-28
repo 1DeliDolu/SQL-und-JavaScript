@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: white;
+    color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem 5rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+em {
+    color: darkorange;
+}
+
+fieldset {
+    max-width: 28rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+
+input[type=submit] {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.25rem 2.5rem;
+    border-radius: 0.5rem;
+    background-color: darkorange;
+}
+
+.klein {
+    font-size: 0.7rem;
+}

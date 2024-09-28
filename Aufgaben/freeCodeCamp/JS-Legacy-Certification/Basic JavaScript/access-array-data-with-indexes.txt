@@ -1,0 +1,5 @@
+const myArray = ["apple", "banana", "cherry"];
+
+const myData = myArray[0];
+
+console.log(myData); // Output: "apple"

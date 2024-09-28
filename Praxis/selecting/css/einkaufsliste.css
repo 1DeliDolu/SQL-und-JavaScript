@@ -1,0 +1,87 @@
+* { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body {
+    margin: 1rem 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    background-color: honeydew;
+}
+
+section#praxis-einkaufsliste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal; 
+    justify-content: space-between;
+  }
+  
+  section#praxis-einkaufsliste > h2,
+  section#praxis-einkaufsliste > section > h3 {
+    flex: 0 1 100%;
+  }
+  
+  section#praxis-einkaufsliste section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 10rem;
+    /* align-items: flex-end; */
+  }
+  
+  section#praxis-einkaufsliste > fieldset {
+    flex: 0 1 45%;
+    height: 5rem;
+    padding: 1rem;
+  }
+  
+  section#praxis-einkaufsliste> fieldset + section {
+    flex: 0 1 50%;
+  }
+  
+  section#praxis-einkaufsliste button { width: 60px; height: 25px; 
+          background-size: 18px;  background-position: center center;
+          background-repeat: no-repeat;  border-radius: 0.5rem; }
+  
+  section#praxis-einkaufsliste >fieldset > button { width: 40px; }             
+          
+  section#praxis-einkaufsliste button > span { display: none; }
+  
+  section#praxis-einkaufsliste button { transform: translateY(-0.3rem);}
+  
+  button#load       { background-image: url(../images/cloud-download.svg);}
+  button#store      { background-image: url(../images/cloud-upload.svg);}
+  button#deleteall  { background-image: url(../images/circle-x.svg);}
+  
+  button#enter      { background-image: url(../images/circle-check.svg);}
+  button#up         { background-image: url(../images/chevron-top.svg);}
+  button#down       { background-image: url(../images/chevron-bottom.svg);}
+  button#sortasc    { background-image: url(../images/sort-ascending.svg);}
+  button#sortdesc   { background-image: url(../images/sort-descending.svg);}
+  button#delete     { background-image: url(../images/circle-x.svg);}
+  
+  #einkaufsliste { flex: 0 1 100%; min-height: 10rem; background-color: #fff; border-radius: 1rem; 
+                    padding: 1rem 3rem; font-size: 1.2rem; }
+  #einkaufsliste > li { cursor: pointer; }
+  #einkaufsliste > li.markiert { color: #f00; font-weight: bold; }
+
+  @media screen and (max-width: 900px) {
+    body {
+      margin: 1rem 2rem;
+    }
+
+    section#praxis-einkaufsliste > fieldset {
+        flex: 1 0 90%;
+        height: 5rem;
+        padding: 1rem;
+      }
+      
+      section#praxis-einkaufsliste> fieldset + section {
+        flex: 1 0 90%
+      }
+
+      #item {
+        width: 10rem;
+      }
+  }

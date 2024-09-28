@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="intro-text">Intro to the Object Document</h1>
+    <ul></ul>
+    <script>
+        let topics = [
+            "Intro to DOM",
+            "Getting Elements",
+            "Querying the Dom",
+            "Creating Elements",
+            "Removing Elements",
+            "Modifying Elements Classes",
+        ];
+
+        let h1Element = document.getElementById('intro-text');
+        let scriptElement = document.querySelector('script');
+        let olElement = document.createElement('ol');
+        let ulElement = document.createElement('ul');
+
+        // Zweite Variante
+        topics.forEach(element => {
+            let li = document.createElement('li');
+            li.innerHTML = `${element}<br>`;
+            olElement.appendChild(li);
+        });
+
+        // Element entfernen und zum ulElement hinzufügen
+        let liLast = olElement.removeChild(olElement.lastChild);
+        ulElement.appendChild(liLast);
+
+        // Elemente in das Dokument einfügen
+        document.body.insertBefore(olElement, scriptElement);
+        h1Element.insertAdjacentElement('afterend', olElement);
+
+        // Zusätzliches ulElement an das Dokument anhängen
+        document.body.insertBefore(ulElement, scriptElement);
+    </script>
+</body>
+</html>

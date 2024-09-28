@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Using Object.values()</h1>
+
+    <p id="demo1"></p>
+    <p>
+        document.getElementById("demo2").innerHTML = person.name + "," +
+        person.age + "," + person.city
+    </p>
+    <p id="demo2"></p>
+    <p>document.getElementById("demo3").innerHTML = text</p>
+    <p id="demo3"></p>
+    <p>document.getElementById("demo4").innerHTML = myArray1</p>
+    <p id="demo4"></p>
+    <p>document.getElementById("demo5").innerHTML = text</p>
+    <p id="demo"></p>
+    <p id="demo5"></p>
+
+    <script>
+        // Create an Object
+        const person = {
+            name: "John",
+            age: 30,
+            city: "New York"
+        };
+
+        // Create an Array
+        const myArray = Object.values(person);
+
+        // Display the Array
+        document.getElementById("demo").innerHTML = myArray;
+        document.getElementById("demo1").innerHTML = person;
+        document.getElementById("demo2").innerHTML =
+            person.name + "," + person.age + "," + person.city;
+        // Build a Text
+        let text = "";
+        for (let x in person) {
+            text += person[x] + " ";
+        }
+
+        // Display the Text
+        document.getElementById("demo3").innerHTML = text;
+        // Create an Array
+        const myArray1 = Object.values(person);
+
+        // Display the Array
+        document.getElementById("demo4").innerHTML = myArray1;
+        const fruits = { Bananas: 300, Oranges: 200, Apples: 500 };
+
+        let text1 = "";
+        for (let [fruit, value] of Object.entries(fruits)) {
+            text1 += fruit + ": " + value + "<br>";
+        }
+        document.getElementById("demo5").innerHTML = text;
+    </script>
+</body>
+
+</html>

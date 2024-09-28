@@ -1,0 +1,92 @@
+- title: Relationale Datenbanken
+  file: /Relationale Datenbanken
+- title: Normalisierung
+  file: /Normalisierung/Normalisierung
+  sections:
+    - title: Firma-Personal-Projekt (Herdt)
+      file: /Normalisierung/Firma-Personal-Projekt (Herdt)/Firma-Personal-Projekt
+      sections:
+        - title: ERDPlus-Export
+          file: /Normalisierung/Firma-Personal-Projekt (Herdt)/ERDPlus-Export
+        - title: Struktur
+          file: /Normalisierung/Firma-Personal-Projekt (Herdt)/Struktur
+        - title: Daten
+          file: /Normalisierung/Firma-Personal-Projekt (Herdt)/Daten
+        - title: Abfragen
+          file: /Normalisierung/Firma-Personal-Projekt (Herdt)/Abfragen
+        - title: Auswirkungen von Constraints
+          file: /Normalisierung/Firma-Personal-Projekt (Herdt)/Constraint-Demo
+    - title: Schule
+      file: /Normalisierung/Schule/Schule
+      sections:
+        - title: ERDPlus-Export
+          file: /Normalisierung/Schule/ERDPlus-Export
+        - title: Struktur
+          file: /Normalisierung/Schule/Struktur
+        - title: Daten
+          file: /Normalisierung/Schule/Daten
+        - title: Abfragen
+          file: /Normalisierung/Schule/Abfragen
+- title: ER-Modelle
+  file: /ER-Modelle/ER-Modelle
+  sections: []
+- title: Relationen-Modelle
+  file: /Relationen-Modelle/Relationen-Modelle
+  sections: []
+- title: Wichtige SQL Befehle
+  file: /Wichtige SQL Befehle/Wichtige-SQL-Befehle
+  sections: []
+- title: Datentypen
+  file: /Datentypen/Datentypen
+  sections: []
+- title: Datenbank und Tabellen erstellen
+  file: /Datenbank und Tabellen erstellen/Datenbank-und-Tabellen-erstellen
+  sections: []
+- title: Daten erfassen
+  file: /Daten erfassen/Daten-erfassen
+  sections: []
+- title: Daten ändern und löschen
+  file: /Daten ändern und löschen/Daten ändern und löschen
+  sections:
+    - title: 'Demo UPDATE, DELETE, TRUNCATE'
+      file: '/Daten ändern und löschen/Demo UPDATE, DELETE, TRUNCATE'
+- title: Objekte ändern und löschen
+  file: /Objekte ändern und löschen/Objekte ändern und löschen
+  sections:
+    - title: 'Demo ALTER, DROP'
+      file: '/Objekte ändern und löschen/Demo ALTER, DROP'
+- title: Weitere Objekte in der Datenbank
+  file: /Weitere Objekte in der Datenbank/Weitere-Objekte-in-der-Datenbank
+  sections:
+    - title: View-Demo
+      file: /Weitere Objekte in der Datenbank/View-Demo
+    - title: Function-Demo
+      file: /Weitere Objekte in der Datenbank/Function-Demo
+    - title: Trigger-Demo
+      file: /Weitere Objekte in der Datenbank/Trigger-Demo
+    - title: Procedure-Demo
+      file: /Weitere Objekte in der Datenbank/Procedure-Demo
+- title: Referentielle Integrität
+  file: /Referentielle Integrität/Referentielle Integrität
+  sections:
+    - title: Referentielle Integrität Demo
+      file: /Referentielle Integrität/Referentielle Integrität Demo
+- title: DCL - Data Control Language
+  file: /DCL - Data Control Language/DCL - Data Control Language
+  sections:
+    - title: Objekte
+      file: /DCL - Data Control Language/Objekte
+    - title: Logins und User
+      file: /DCL - Data Control Language/Logins und User     
+    - title: DCL-Demo
+      file: /DCL - Data Control Language/DCL-Demo
+    - title: DCL-Übung
+      file: /DCL - Data Control Language/DCL-Übung      
+- title: Prüfungsrelevante Fachbegriffe
+  file: /Prüfungsrelevante Fachbegriffe/Prüfungsrelevante-Fachbegriffe
+  sections:
+    - title: ANSI-3-Ebenenmodell
+      file: /Prüfungsrelevante Fachbegriffe/ANSI-3-Ebenenmodell
+    - title: Nicht-Relationale Datenbanken und Datenspeicher
+      file: /Prüfungsrelevante Fachbegriffe/Nicht-Relationale Datenbanken und Datenspeicher
+

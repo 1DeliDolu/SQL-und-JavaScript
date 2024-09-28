@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/movies"
+    xmlns:tns="http://example.com/movies" elementFormDefault="qualified">
+
+    <xsd:element name="movies">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="movie" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="title" type="xsd:string"/>
+                            <xsd:element name="director" type="xsd:string"/>
+                            <xsd:element name="year" type="xsd:integer"/>
+                            <xsd:element name="genre" maxOccurs="unbounded">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="Action"/>
+                                        <xsd:enumeration value="Comedy"/>
+                                        <xsd:enumeration value="Drama"/>
+                                        <xsd:enumeration value="Horror"/>
+                                        <xsd:enumeration value="Romance"/>
+                                        <xsd:enumeration value="Thriller"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="rating">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="G"/>
+                                        <xsd:enumeration value="PG"/>
+                                        <xsd:enumeration value="PG-13"/>
+                                        <xsd:enumeration value="R"/>
+                                        <xsd:enumeration value="NC-17"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="description" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation xml:lang="de">
+		Dokumentation zum Schema hier
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name="CATALOG">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CD" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="TITLE">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="3"/>
+                                        <xs:maxLength value="120"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="ARTIST" type="nichtLeererString"></xs:element>
+                            <xs:element name="COUNTRY">
+                                <!--Fassette für Country-->
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="EU"></xs:enumeration>
+                                        <xs:enumeration value="UK"></xs:enumeration>
+                                        <xs:enumeration value="USA"></xs:enumeration>
+                                        <xs:enumeration value="Norway"></xs:enumeration>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="COMPANY" type="nichtLeererString"></xs:element>
+                            <xs:element name="PRICE" >
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:totalDigits value="4"></xs:totalDigits>
+                                        <xs:fractionDigits value="2"></xs:fractionDigits>
+                                        <xs:minInclusive value="5"></xs:minInclusive>
+                                        <xs:maxInclusive value="12"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="YEAR">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:gYear">
+                                        <!-- Fassatten -->
+                                        <xs:minInclusive value="1960"></xs:minInclusive>
+                                        <xs:maxInclusive value="2000"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- Benutzer definierter  Datentype -->
+     <xs:simpleType name="nichtLeererString">
+        <xs:restriction base="xs:string">
+            <!--xs:minLength value="2"></xs:minLength-->
+            <xs:pattern value="\S[\w|\s|'|.]+\S"></xs:pattern>
+            
+
+        </xs:restriction>
+     </xs:simpleType>
+
+
+</xs:schema>

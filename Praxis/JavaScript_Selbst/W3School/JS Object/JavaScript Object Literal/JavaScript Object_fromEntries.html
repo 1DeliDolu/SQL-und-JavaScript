@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>The Object.fromEntries() Method</h2>
+
+<p>The number of pears are:</p>
+<p id="demo"></p>
+
+<script>
+const fruits = [
+["apples", 300],
+["pears", 900],
+["bananas", 500]
+];
+
+const myObj = Object.fromEntries(fruits);
+document.getElementById("demo").innerHTML = myObj.pears;
+</script>
+
+</body>
+</html>
+

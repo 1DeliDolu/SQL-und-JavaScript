@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Element mit Unterelementen
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="termin">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="betreff" type="xs:string"></xs:element>
+				<xs:element name="ort" type="xs:string"></xs:element>
+				<xs:element name="von" type="xs:dateTime"></xs:element>
+				<xs:element name="bis" type="xs:dateTime"></xs:element>
+				<xs:element name="teilnehmer" type="xs:string" maxOccurs="10"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

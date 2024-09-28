@@ -1,0 +1,4 @@
+const FCC = "freeCodeCamp"; // Verwendung von Großbuchstaben für Konstanten
+let fact = "is cool!";
+fact = "is awesome!";
+console.log(FCC, fact);

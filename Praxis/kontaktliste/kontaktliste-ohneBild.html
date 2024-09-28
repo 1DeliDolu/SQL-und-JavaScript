@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktliste</title>
+    <link rel="stylesheet" href="css/kontaktliste.css">
+    <script src="js/kontaktliste.js" defer></script>
+</head>
+<body>
+    <article>
+        <h1>Kontaktliste</h1>
+        <p>Übung folgender JavaScript Features:</p>
+        <ul>
+            <li>Auslesen von Formulardaten</li>
+            <li>Sammeln von Daten in Form von Objektliteralen</li>
+            <li>Umwandeln von JSON Daten zwischen Objekt und String</li>
+            <li>Speichern in und Auslesen aus localStorage</li>
+            <li>Daten als Tabelle ausgeben</li>
+        </ul>
+        <section>
+            <h2 id="s3">JSON Demo mit Storage</h2>
+            <div id="jsondemo">
+                <form action="data/formular-testseite.php">
+                    <p><label for="nachname">Nachname:</label> <input type="text" id="nachname" name="nachname"></p>
+                    <p><label for="vorname">Vorname:</label> <input type="text" id="vorname" name="vorname"></p>
+                    <p><label for="geburtsdatum">Geburtsdatum:</label> <input type="date" id="geburtsdatum" name="geburtsdatum"></p>
+                    <p><label for="beruf">Beruf:</label> <input type="text" id="beruf" name="beruf"></p>
+                    <p><label for="email">E-Mail:</label> <input type="email" id="email" name="email"></p>
+                    <p>
+                        <input type="hidden" id="uuid" name="uuid" value="">
+                        <button type="submit">Speichern</button>
+                        <button type="reset">Formular leeren</button>
+                        <button type="button" id="anzeigen">Liste anzeigen</button>
+                    </p>
+                </form>
+            </div>
+            <div id="ausgabe"></div>
+        </section>
+        <section>
+            <h2 id="s5">Ideen zur Weiterentwicklung</h2>
+            <ul>
+                <li>Kontaktliste um ein Foto erweitern, das per Drag &amp; Drop hinzugefügt wird.</li>
+                <li>Kontakte erfassen und Kontakte anzeigen auf verschiedenen Seiten durchführen.</li>
+                <li>Kontaktliste als HTML Datentabelle anzeigen.</li>
+                <li>Lösch- und Editierfunktionen für Kontakte ergänzen.</li>
+                <li>Sicherheitsfunktionen für die Säuberung und Validierung von Benutzereingaben ergänzen.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="s6">Referenz</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/FormData">FormData</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage">Storage</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReader">FileReader</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">Drag &amp; Drop</a></li>
+            </ul>
+        </section>
+        <!--TODO hier habe ich <script src="js/kontaktliste.js" defer></script> hinzugefügt, dann vergessen.-->
+    </article>
+</body>
+</html>

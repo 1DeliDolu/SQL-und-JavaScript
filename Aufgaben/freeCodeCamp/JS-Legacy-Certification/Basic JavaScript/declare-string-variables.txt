@@ -1,0 +1,2 @@
+var myFirstName="Mustafa";
+var myLastName="Özdemir";

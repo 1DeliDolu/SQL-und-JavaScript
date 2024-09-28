@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <person gender="female">
+        <firstname>Anna</firstname>
+        <lastname>Smith</lastname>
+        <street></street>
+        <zip></zip>
+        <city></city>
+    </person>
+
+    <person>
+        <gender>female</gender>
+        <firstname>Anna</firstname>
+        <lastname>Smith</lastname>
+        <address type="privat">
+            <street></street>
+            <zip></zip>
+            <city></city>
+        </address>
+        <address type="dienstlich">
+            <street></street>
+            <zip></zip>
+            <city></city>
+        </address>        
+    </person>
+
+
+    <note date="2008-01-10">
+        <to>Tove</to>
+        <from>Jani</from>
+    </note>
+
+
+    <note>
+        <date>2008-01-10</date>
+        <to>Tove</to>
+        <from>Jani</from>
+    </note>
+
+
+    <note>
+        <date>
+            <year>2008</year>
+            <month>01</month>
+            <day>10</day>
+        </date>
+        <to>Tove</to>
+        <from>Jani</from>
+    </note>
+
+    <note day="10" month="01" year="2008" to="Tove" from="Jani" heading="Reminder" body="Don't forget me this weekend!"></note>
+    
+    <produkt id="">
+        <produktid></produktid>
+        <name></name>
+        <kategorie></kategorie>
+        <preis currency="EUR">99.99</preis>
+    </produkt>
+
+
+
+    <!-- 
+        Der Datentyp ID lässt nicht zu, dass Werte mit einer Ziffer beginnen. 
+        IDENTITY Werte aus einer SQL Server Tabelle sind nicht als XML IDs zu gebrauchen,
+        es sei denn, sie werden mit einem Prefix versehen.
+    -->
+    <messages>
+        <note id="n501">
+            <to>Tove</to>
+            <from>Jani</from>
+            <heading>Reminder</heading>
+            <body>Don't forget me this weekend!</body>
+        </note>
+        <note id="n502">
+            <to>Jani</to>
+            <from>Tove</from>
+            <heading>Re: Reminder</heading>
+            <body>I will not</body>
+        </note>
+    </messages>
+</root>

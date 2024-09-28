@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="imdb.xsl" type="text/xsl"?>
+<movies>
+
+  <movie>
+    <index>1</index>
+    <movie_name>The Godfather</movie_name>
+    <year_of_release>1972</year_of_release>
+    <category>R</category>
+    <run_time_minutes>175</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>9.2</imdb_rating>
+    <votes>1860471</votes>
+    <gross_total currency="$" scale="M">134.97</gross_total>
+  </movie>
+
+  <movie>
+    <index>2</index>
+    <movie_name>The Silence of the Lambs</movie_name>
+    <year_of_release>1991</year_of_release>
+    <category>R</category>
+    <run_time_minutes>118</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>1435344</votes>
+    <gross_total currency="$" scale="M">130.74</gross_total>
+  </movie>
+
+  <movie>
+    <index>3</index>
+    <movie_name>Star Wars: Episode V - The Empire Strikes Back</movie_name>
+    <year_of_release>1980</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>124</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Fantasy</genre>
+    <imdb_rating>8.7</imdb_rating>
+    <votes>1294805</votes>
+    <gross_total currency="$" scale="M">290.48</gross_total>
+  </movie>
+
+  <movie>
+    <index>4</index>
+    <movie_name>The Shawshank Redemption</movie_name>
+    <year_of_release>1994</year_of_release>
+    <category>R</category>
+    <run_time_minutes>142</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>9.3</imdb_rating>
+    <votes>2683302</votes>
+    <gross_total currency="$" scale="M">28.34</gross_total>
+  </movie>
+
+  <movie>
+    <index>5</index>
+    <movie_name>The Shining</movie_name>
+    <year_of_release>1980</year_of_release>
+    <category>R</category>
+    <run_time_minutes>146</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Horror</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>1025560</votes>
+    <gross_total currency="$" scale="M">44.02</gross_total>
+  </movie>
+
+  <movie>
+    <index>6</index>
+    <movie_name>Casablanca</movie_name>
+    <year_of_release>1942</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>102</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <genre>War</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>574092</votes>
+    <gross_total currency="$" scale="M">1.02</gross_total>
+  </movie>
+
+  <movie>
+    <index>7</index>
+    <movie_name>One Flew Over the Cuckoo's Nest</movie_name>
+    <year_of_release>1975</year_of_release>
+    <category>R</category>
+    <run_time_minutes>133</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8.7</imdb_rating>
+    <votes>1010102</votes>
+    <gross_total currency="$" scale="M">112.00</gross_total>
+  </movie>
+
+  <movie>
+    <index>8</index>
+    <movie_name>Indiana Jones and the Raiders of the Lost Ark</movie_name>
+    <year_of_release>1981</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>115</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>969143</votes>
+    <gross_total currency="$" scale="M">248.16</gross_total>
+  </movie>
+
+  <movie>
+    <index>9</index>
+    <movie_name>The Lord of the Rings: The Return of the King</movie_name>
+    <year_of_release>2003</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>201</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <imdb_rating>9</imdb_rating>
+    <votes>1849082</votes>
+    <gross_total currency="$" scale="M">377.85</gross_total>
+  </movie>
+
+  <movie>
+    <index>10</index>
+    <movie_name>Star Wars: Episode IV - A New Hope</movie_name>
+    <year_of_release>1977</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>121</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Fantasy</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>1367430</votes>
+    <gross_total currency="$" scale="M">322.74</gross_total>
+  </movie>
+
+  <movie>
+    <index>11</index>
+    <movie_name>The Dark Knight</movie_name>
+    <year_of_release>2008</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>152</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>9</imdb_rating>
+    <votes>2656768</votes>
+    <gross_total currency="$" scale="M">534.86</gross_total>
+  </movie>
+
+  <movie>
+    <index>12</index>
+    <movie_name>The Godfather: Part II</movie_name>
+    <year_of_release>1974</year_of_release>
+    <category>R</category>
+    <run_time_minutes>202</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>9</imdb_rating>
+    <votes>1273349</votes>
+    <gross_total currency="$" scale="M">57.30</gross_total>
+  </movie>
+
+  <movie>
+    <index>13</index>
+    <movie_name>Aliens</movie_name>
+    <year_of_release>1986</year_of_release>
+    <category>R</category>
+    <run_time_minutes>137</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>720623</votes>
+    <gross_total currency="$" scale="M">85.16</gross_total>
+  </movie>
+
+  <movie>
+    <index>14</index>
+    <movie_name>Schindler's List</movie_name>
+    <year_of_release>1993</year_of_release>
+    <category>R</category>
+    <run_time_minutes>195</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <genre>History</genre>
+    <imdb_rating>9</imdb_rating>
+    <votes>1357621</votes>
+    <gross_total currency="$" scale="M">96.90</gross_total>
+  </movie>
+
+  <movie>
+    <index>15</index>
+    <movie_name>Inception</movie_name>
+    <year_of_release>2010</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>148</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.8</imdb_rating>
+    <votes>2356293</votes>
+    <gross_total currency="$" scale="M">292.58</gross_total>
+  </movie>
+
+  <movie>
+    <index>16</index>
+    <movie_name>The Lord of the Rings: The Fellowship of the Ring</movie_name>
+    <year_of_release>2001</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>178</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.8</imdb_rating>
+    <votes>1878557</votes>
+    <gross_total currency="$" scale="M">315.54</gross_total>
+  </movie>
+
+  <movie>
+    <index>17</index>
+    <movie_name>Alien</movie_name>
+    <year_of_release>1979</year_of_release>
+    <category>R</category>
+    <run_time_minutes>117</run_time_minutes>
+    <genre>Horror</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>885635</votes>
+    <gross_total currency="$" scale="M">78.90</gross_total>
+  </movie>
+
+  <movie>
+    <index>18</index>
+    <movie_name>Some Like It Hot</movie_name>
+    <year_of_release>1959</year_of_release>
+    <category>Passed</category>
+    <run_time_minutes>121</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Music</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>269346</votes>
+    <gross_total currency="$" scale="M">25.00</gross_total>
+  </movie>
+
+  <movie>
+    <index>19</index>
+    <movie_name>Blade Runner</movie_name>
+    <year_of_release>1982</year_of_release>
+    <category>R</category>
+    <run_time_minutes>117</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Drama</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>773425</votes>
+    <gross_total currency="$" scale="M">32.87</gross_total>
+  </movie>
+
+  <movie>
+    <index>20</index>
+    <movie_name>Se7en</movie_name>
+    <year_of_release>1995</year_of_release>
+    <category>R</category>
+    <run_time_minutes>127</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>1655745</votes>
+    <gross_total currency="$" scale="M">100.13</gross_total>
+  </movie>
+
+  <movie>
+    <index>21</index>
+    <movie_name>Apocalypse Now</movie_name>
+    <year_of_release>1979</year_of_release>
+    <category>R</category>
+    <run_time_minutes>147</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <genre>War</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>669994</votes>
+    <gross_total currency="$" scale="M">83.47</gross_total>
+  </movie>
+
+  <movie>
+    <index>22</index>
+    <movie_name>12 Angry Men</movie_name>
+    <year_of_release>1957</year_of_release>
+    <category>Approved</category>
+    <run_time_minutes>96</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>9</imdb_rating>
+    <votes>792729</votes>
+    <gross_total currency="$" scale="M">4.36</gross_total>
+  </movie>
+
+  <movie>
+    <index>23</index>
+    <movie_name>The Lord of the Rings: The Two Towers</movie_name>
+    <year_of_release>2002</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>179</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.8</imdb_rating>
+    <votes>1669715</votes>
+    <gross_total currency="$" scale="M">342.55</gross_total>
+  </movie>
+
+  <movie>
+    <index>24</index>
+    <movie_name>Terminator 2: Judgment Day</movie_name>
+    <year_of_release>1991</year_of_release>
+    <category>R</category>
+    <run_time_minutes>137</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>1101850</votes>
+    <gross_total currency="$" scale="M">204.84</gross_total>
+  </movie>
+
+  <movie>
+    <index>25</index>
+    <movie_name>Star Wars: Episode VI - Return of the Jedi</movie_name>
+    <year_of_release>1983</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>131</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Fantasy</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>1056750</votes>
+    <gross_total currency="$" scale="M">309.13</gross_total>
+  </movie>
+
+  <movie>
+    <index>26</index>
+    <movie_name>Die Hard</movie_name>
+    <year_of_release>1988</year_of_release>
+    <category>R</category>
+    <run_time_minutes>132</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>887967</votes>
+    <gross_total currency="$" scale="M">83.01</gross_total>
+  </movie>
+
+  <movie>
+    <index>27</index>
+    <movie_name>Gone with the Wind</movie_name>
+    <year_of_release>1939</year_of_release>
+    <category>Passed</category>
+    <run_time_minutes>238</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <genre>War</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>317621</votes>
+    <gross_total currency="$" scale="M">198.68</gross_total>
+  </movie>
+
+  <movie>
+    <index>28</index>
+    <movie_name>Taxi Driver</movie_name>
+    <year_of_release>1976</year_of_release>
+    <category>R</category>
+    <run_time_minutes>114</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>836871</votes>
+    <gross_total currency="$" scale="M">28.26</gross_total>
+  </movie>
+
+  <movie>
+    <index>29</index>
+    <movie_name>Pulp Fiction</movie_name>
+    <year_of_release>1994</year_of_release>
+    <category>R</category>
+    <run_time_minutes>154</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.9</imdb_rating>
+    <votes>2058574</votes>
+    <gross_total currency="$" scale="M">107.93</gross_total>
+  </movie>
+
+  <movie>
+    <index>30</index>
+    <movie_name>The Bridge on the River Kwai</movie_name>
+    <year_of_release>1957</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>161</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <genre>War</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>222540</votes>
+    <gross_total currency="$" scale="M">44.91</gross_total>
+  </movie>
+
+  <movie>
+    <index>31</index>
+    <movie_name>The Lion King</movie_name>
+    <year_of_release>1994</year_of_release>
+    <category>G</category>
+    <run_time_minutes>88</run_time_minutes>
+    <genre>Animation</genre>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>1060900</votes>
+    <gross_total currency="$" scale="M">422.78</gross_total>
+  </movie>
+
+  <movie>
+    <index>32</index>
+    <movie_name>North by Northwest</movie_name>
+    <year_of_release>1959</year_of_release>
+    <category>Approved</category>
+    <run_time_minutes>136</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Mystery</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>330232</votes>
+    <gross_total currency="$" scale="M">13.28</gross_total>
+  </movie>
+
+  <movie>
+    <index>33</index>
+    <movie_name>Rear Window</movie_name>
+    <year_of_release>1954</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>112</run_time_minutes>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>493926</votes>
+    <gross_total currency="$" scale="M">36.76</gross_total>
+  </movie>
+
+  <movie>
+    <index>34</index>
+    <movie_name>Léon: The Professional</movie_name>
+    <year_of_release>1994</year_of_release>
+    <category>R</category>
+    <run_time_minutes>110</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>1164087</votes>
+    <gross_total currency="$" scale="M">19.50</gross_total>
+  </movie>
+
+  <movie>
+    <index>35</index>
+    <movie_name>Back to the Future</movie_name>
+    <year_of_release>1985</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>116</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Comedy</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>1208582</votes>
+    <gross_total currency="$" scale="M">210.61</gross_total>
+  </movie>
+
+  <movie>
+    <index>36</index>
+    <movie_name>Citizen Kane</movie_name>
+    <year_of_release>1941</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>119</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>444359</votes>
+    <gross_total currency="$" scale="M">1.59</gross_total>
+  </movie>
+
+  <movie>
+    <index>37</index>
+    <movie_name>Goodfellas</movie_name>
+    <year_of_release>1990</year_of_release>
+    <category>R</category>
+    <run_time_minutes>145</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.7</imdb_rating>
+    <votes>1164128</votes>
+    <gross_total currency="$" scale="M">46.84</gross_total>
+  </movie>
+
+  <movie>
+    <index>38</index>
+    <movie_name>Memento</movie_name>
+    <year_of_release>2000</year_of_release>
+    <category>R</category>
+    <run_time_minutes>113</run_time_minutes>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>1241252</votes>
+    <gross_total currency="$" scale="M">25.54</gross_total>
+  </movie>
+
+  <movie>
+    <index>39</index>
+    <movie_name>American Beauty</movie_name>
+    <year_of_release>1999</year_of_release>
+    <category>R</category>
+    <run_time_minutes>122</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>1157536</votes>
+    <gross_total currency="$" scale="M">130.10</gross_total>
+  </movie>
+
+  <movie>
+    <index>40</index>
+    <movie_name>As Good as It Gets</movie_name>
+    <year_of_release>1997</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>139</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <imdb_rating>7.7</imdb_rating>
+    <votes>301756</votes>
+    <gross_total currency="$" scale="M">148.48</gross_total>
+  </movie>
+
+  <movie>
+    <index>41</index>
+    <movie_name>Forrest Gump</movie_name>
+    <year_of_release>1994</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>142</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.8</imdb_rating>
+    <votes>2082477</votes>
+    <gross_total currency="$" scale="M">330.25</gross_total>
+  </movie>
+
+  <movie>
+    <index>42</index>
+    <movie_name>Singin' in the Rain</movie_name>
+    <year_of_release>1952</year_of_release>
+    <category>G</category>
+    <run_time_minutes>103</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Musical</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>244548</votes>
+    <gross_total currency="$" scale="M">8.82</gross_total>
+  </movie>
+
+  <movie>
+    <index>43</index>
+    <movie_name>Braveheart</movie_name>
+    <year_of_release>1995</year_of_release>
+    <category>R</category>
+    <run_time_minutes>178</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <genre>History</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>1040416</votes>
+    <gross_total currency="$" scale="M">75.60</gross_total>
+  </movie>
+
+  <movie>
+    <index>44</index>
+    <movie_name>Saving Private Ryan</movie_name>
+    <year_of_release>1998</year_of_release>
+    <category>R</category>
+    <run_time_minutes>169</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>War</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>1394262</votes>
+    <gross_total currency="$" scale="M">216.54</gross_total>
+  </movie>
+
+  <movie>
+    <index>45</index>
+    <movie_name>Rain Man</movie_name>
+    <year_of_release>1988</year_of_release>
+    <category>R</category>
+    <run_time_minutes>133</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8</imdb_rating>
+    <votes>517528</votes>
+    <gross_total currency="$" scale="M">178.80</gross_total>
+  </movie>
+
+  <movie>
+    <index>46</index>
+    <movie_name>The King's Speech</movie_name>
+    <year_of_release>2010</year_of_release>
+    <category>R</category>
+    <run_time_minutes>118</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <genre>History</genre>
+    <imdb_rating>8</imdb_rating>
+    <votes>683379</votes>
+    <gross_total currency="$" scale="M">138.80</gross_total>
+  </movie>
+
+  <movie>
+    <index>47</index>
+    <movie_name>2001: A Space Odyssey</movie_name>
+    <year_of_release>1968</year_of_release>
+    <category>G</category>
+    <run_time_minutes>149</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>671980</votes>
+    <gross_total currency="$" scale="M">56.95</gross_total>
+  </movie>
+
+  <movie>
+    <index>48</index>
+    <movie_name>Kill Bill: Vol. 1</movie_name>
+    <year_of_release>2003</year_of_release>
+    <category>R</category>
+    <run_time_minutes>111</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>1119120</votes>
+    <gross_total currency="$" scale="M">70.10</gross_total>
+  </movie>
+
+  <movie>
+    <index>49</index>
+    <movie_name>Avanti!</movie_name>
+    <year_of_release>1972</year_of_release>
+    <category>R</category>
+    <run_time_minutes>144</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Romance</genre>
+    <imdb_rating>7.2</imdb_rating>
+    <votes>10748</votes>
+    <gross_total currency="$" scale="M">3.30</gross_total>
+  </movie>
+
+  <movie>
+    <index>50</index>
+    <movie_name>The Good, the Bad and the Ugly</movie_name>
+    <year_of_release>1966</year_of_release>
+    <category>Approved</category>
+    <run_time_minutes>178</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Western</genre>
+    <imdb_rating>8.8</imdb_rating>
+    <votes>763678</votes>
+    <gross_total currency="$" scale="M">6.10</gross_total>
+  </movie>
+
+  <movie>
+    <index>51</index>
+    <movie_name>Amélie</movie_name>
+    <year_of_release>2001</year_of_release>
+    <category>R</category>
+    <run_time_minutes>122</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>759411</votes>
+    <gross_total currency="$" scale="M">33.23</gross_total>
+  </movie>
+
+  <movie>
+    <index>52</index>
+    <movie_name>Modern Times</movie_name>
+    <year_of_release>1936</year_of_release>
+    <category>G</category>
+    <run_time_minutes>87</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>244162</votes>
+    <gross_total currency="$" scale="M">0.16</gross_total>
+  </movie>
+
+  <movie>
+    <index>53</index>
+    <movie_name>Lost in Translation</movie_name>
+    <year_of_release>2003</year_of_release>
+    <category>R</category>
+    <run_time_minutes>102</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <imdb_rating>7.7</imdb_rating>
+    <votes>458613</votes>
+    <gross_total currency="$" scale="M">44.59</gross_total>
+  </movie>
+
+  <movie>
+    <index>54</index>
+    <movie_name>Full Metal Jacket</movie_name>
+    <year_of_release>1987</year_of_release>
+    <category>R</category>
+    <run_time_minutes>116</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>War</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>745546</votes>
+    <gross_total currency="$" scale="M">46.36</gross_total>
+  </movie>
+
+  <movie>
+    <index>55</index>
+    <movie_name>Requiem for a Dream</movie_name>
+    <year_of_release>2000</year_of_release>
+    <category>R</category>
+    <run_time_minutes>102</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>845362</votes>
+    <gross_total currency="$" scale="M">3.64</gross_total>
+  </movie>
+
+  <movie>
+    <index>56</index>
+    <movie_name>Fight Club</movie_name>
+    <year_of_release>1999</year_of_release>
+    <category>R</category>
+    <run_time_minutes>139</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8.8</imdb_rating>
+    <votes>2128902</votes>
+    <gross_total currency="$" scale="M">37.03</gross_total>
+  </movie>
+
+  <movie>
+    <index>57</index>
+    <movie_name>No Country for Old Men</movie_name>
+    <year_of_release>2007</year_of_release>
+    <category>R</category>
+    <run_time_minutes>122</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>977336</votes>
+    <gross_total currency="$" scale="M">74.28</gross_total>
+  </movie>
+
+  <movie>
+    <index>58</index>
+    <movie_name>Django Unchained</movie_name>
+    <year_of_release>2012</year_of_release>
+    <category>R</category>
+    <run_time_minutes>165</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Western</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>1557890</votes>
+    <gross_total currency="$" scale="M">162.81</gross_total>
+  </movie>
+
+  <movie>
+    <index>59</index>
+    <movie_name>Children of Men</movie_name>
+    <year_of_release>2006</year_of_release>
+    <category>R</category>
+    <run_time_minutes>109</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Drama</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>7.9</imdb_rating>
+    <votes>503642</votes>
+    <gross_total currency="$" scale="M">35.55</gross_total>
+  </movie>
+
+  <movie>
+    <index>60</index>
+    <movie_name>Ratatouille</movie_name>
+    <year_of_release>2007</year_of_release>
+    <category>G</category>
+    <run_time_minutes>111</run_time_minutes>
+    <genre>Animation</genre>
+    <genre>Adventure</genre>
+    <genre>Comedy</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>741322</votes>
+    <gross_total currency="$" scale="M">206.45</gross_total>
+  </movie>
+
+  <movie>
+    <index>61</index>
+    <movie_name>The Lives of Others</movie_name>
+    <year_of_release>2006</year_of_release>
+    <category>R</category>
+    <run_time_minutes>137</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>391480</votes>
+    <gross_total currency="$" scale="M">11.29</gross_total>
+  </movie>
+
+  <movie>
+    <index>62</index>
+    <movie_name>The Prestige</movie_name>
+    <year_of_release>2006</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>130</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>1336235</votes>
+    <gross_total currency="$" scale="M">53.09</gross_total>
+  </movie>
+
+  <movie>
+    <index>63</index>
+    <movie_name>V for Vendetta</movie_name>
+    <year_of_release>2005</year_of_release>
+    <category>R</category>
+    <run_time_minutes>132</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Drama</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>1125038</votes>
+    <gross_total currency="$" scale="M">70.51</gross_total>
+  </movie>
+
+  <movie>
+    <index>64</index>
+    <movie_name>Chinatown</movie_name>
+    <year_of_release>1974</year_of_release>
+    <category>R</category>
+    <run_time_minutes>130</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>329110</votes>
+    <gross_total currency="$" scale="M">8.49</gross_total>
+  </movie>
+
+  <movie>
+    <index>65</index>
+    <movie_name>City of God</movie_name>
+    <year_of_release>2002</year_of_release>
+    <category>R</category>
+    <run_time_minutes>130</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>758914</votes>
+    <gross_total currency="$" scale="M">7.56</gross_total>
+  </movie>
+
+  <movie>
+    <index>66</index>
+    <movie_name>To Have and Have Not</movie_name>
+    <year_of_release>1944</year_of_release>
+    <category>Passed</category>
+    <run_time_minutes>100</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Comedy</genre>
+    <genre>Film-Noir</genre>
+    <imdb_rating>7.8</imdb_rating>
+    <votes>35528</votes>
+    <gross_total currency="$" scale="M">0</gross_total>
+  </movie>
+
+  <movie>
+    <index>67</index>
+    <movie_name>Fargo</movie_name>
+    <year_of_release>1996</year_of_release>
+    <category>R</category>
+    <run_time_minutes>98</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>681256</votes>
+    <gross_total currency="$" scale="M">24.61</gross_total>
+  </movie>
+
+  <movie>
+    <index>68</index>
+    <movie_name>Life of Pi</movie_name>
+    <year_of_release>2012</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>127</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <imdb_rating>7.9</imdb_rating>
+    <votes>634357</votes>
+    <gross_total currency="$" scale="M">124.99</gross_total>
+  </movie>
+
+  <movie>
+    <index>69</index>
+    <movie_name>Slumdog Millionaire</movie_name>
+    <year_of_release>2008</year_of_release>
+    <category>R</category>
+    <run_time_minutes>120</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8</imdb_rating>
+    <votes>848344</votes>
+    <gross_total currency="$" scale="M">141.32</gross_total>
+  </movie>
+
+  <movie>
+    <index>70</index>
+    <movie_name>Vertigo</movie_name>
+    <year_of_release>1958</year_of_release>
+    <category>PG</category>
+    <run_time_minutes>128</run_time_minutes>
+    <genre>Mystery</genre>
+    <genre>Romance</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>404626</votes>
+    <gross_total currency="$" scale="M">3.20</gross_total>
+  </movie>
+
+  <movie>
+    <index>71</index>
+    <movie_name>Trainspotting</movie_name>
+    <year_of_release>1996</year_of_release>
+    <category>R</category>
+    <run_time_minutes>93</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>690138</votes>
+    <gross_total currency="$" scale="M">16.50</gross_total>
+  </movie>
+
+  <movie>
+    <index>72</index>
+    <movie_name>Interstellar</movie_name>
+    <year_of_release>2014</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>169</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>1835790</votes>
+    <gross_total currency="$" scale="M">188.02</gross_total>
+  </movie>
+
+  <movie>
+    <index>73</index>
+    <movie_name>The Thing</movie_name>
+    <year_of_release>1982</year_of_release>
+    <category>R</category>
+    <run_time_minutes>109</run_time_minutes>
+    <genre>Horror</genre>
+    <genre>Mystery</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>428474</votes>
+    <gross_total currency="$" scale="M">13.78</gross_total>
+  </movie>
+
+  <movie>
+    <index>74</index>
+    <movie_name>The Third Man</movie_name>
+    <year_of_release>1949</year_of_release>
+    <category>Approved</category>
+    <run_time_minutes>93</run_time_minutes>
+    <genre>Film-Noir</genre>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>173206</votes>
+    <gross_total currency="$" scale="M">0.45</gross_total>
+  </movie>
+
+  <movie>
+    <index>75</index>
+    <movie_name>12 Monkeys</movie_name>
+    <year_of_release>1995</year_of_release>
+    <category>R</category>
+    <run_time_minutes>129</run_time_minutes>
+    <genre>Mystery</genre>
+    <genre>Sci-Fi</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8</imdb_rating>
+    <votes>621205</votes>
+    <gross_total currency="$" scale="M">57.14</gross_total>
+  </movie>
+
+  <movie>
+    <index>76</index>
+    <movie_name>Life Is Beautiful</movie_name>
+    <year_of_release>1997</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>116</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.6</imdb_rating>
+    <votes>697226</votes>
+    <gross_total currency="$" scale="M">57.60</gross_total>
+  </movie>
+
+  <movie>
+    <index>77</index>
+    <movie_name>The Pianist</movie_name>
+    <year_of_release>2002</year_of_release>
+    <category>R</category>
+    <run_time_minutes>150</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <genre>Music</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>834842</votes>
+    <gross_total currency="$" scale="M">32.57</gross_total>
+  </movie>
+
+  <movie>
+    <index>78</index>
+    <movie_name>Magnolia</movie_name>
+    <year_of_release>1999</year_of_release>
+    <category>R</category>
+    <run_time_minutes>188</run_time_minutes>
+    <genre>Drama</genre>
+    <imdb_rating>8</imdb_rating>
+    <votes>315037</votes>
+    <gross_total currency="$" scale="M">22.46</gross_total>
+  </movie>
+
+  <movie>
+    <index>79</index>
+    <movie_name>The Dark Knight Rises</movie_name>
+    <year_of_release>2012</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>164</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.4</imdb_rating>
+    <votes>1708002</votes>
+    <gross_total currency="$" scale="M">448.14</gross_total>
+  </movie>
+
+  <movie>
+    <index>80</index>
+    <movie_name>Star Wars: Episode VII - The Force Awakens</movie_name>
+    <year_of_release>2015</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>138</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>7.8</imdb_rating>
+    <votes>933771</votes>
+    <gross_total currency="$" scale="M">936.66</gross_total>
+  </movie>
+
+  <movie>
+    <index>81</index>
+    <movie_name>The Hobbit: The Desolation of Smaug</movie_name>
+    <year_of_release>2013</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>161</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Fantasy</genre>
+    <imdb_rating>7.8</imdb_rating>
+    <votes>667864</votes>
+    <gross_total currency="$" scale="M">258.37</gross_total>
+  </movie>
+
+  <movie>
+    <index>82</index>
+    <movie_name>Mad Max: Fury Road</movie_name>
+    <year_of_release>2015</year_of_release>
+    <category>R</category>
+    <run_time_minutes>120</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>1006158</votes>
+    <gross_total currency="$" scale="M">154.06</gross_total>
+  </movie>
+
+  <movie>
+    <index>83</index>
+    <movie_name>12 Years a Slave</movie_name>
+    <year_of_release>2013</year_of_release>
+    <category>R</category>
+    <run_time_minutes>134</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <genre>History</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>703824</votes>
+    <gross_total currency="$" scale="M">56.67</gross_total>
+  </movie>
+
+  <movie>
+    <index>84</index>
+    <movie_name>Indiana Jones and the Last Crusade</movie_name>
+    <year_of_release>1989</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>127</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>758057</votes>
+    <gross_total currency="$" scale="M">197.17</gross_total>
+  </movie>
+
+  <movie>
+    <index>85</index>
+    <movie_name>O Brother, Where Art Thou?</movie_name>
+    <year_of_release>2000</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>107</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Comedy</genre>
+    <genre>Crime</genre>
+    <imdb_rating>7.7</imdb_rating>
+    <votes>315173</votes>
+    <gross_total currency="$" scale="M">45.51</gross_total>
+  </movie>
+
+  <movie>
+    <index>86</index>
+    <movie_name>Inglourious Basterds</movie_name>
+    <year_of_release>2009</year_of_release>
+    <category>R</category>
+    <run_time_minutes>153</run_time_minutes>
+    <genre>Adventure</genre>
+    <genre>Drama</genre>
+    <genre>War</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>1453288</votes>
+    <gross_total currency="$" scale="M">120.54</gross_total>
+  </movie>
+
+  <movie>
+    <index>87</index>
+    <movie_name>The Departed</movie_name>
+    <year_of_release>2006</year_of_release>
+    <category>R</category>
+    <run_time_minutes>151</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>1328252</votes>
+    <gross_total currency="$" scale="M">132.38</gross_total>
+  </movie>
+
+  <movie>
+    <index>88</index>
+    <movie_name>A Beautiful Mind</movie_name>
+    <year_of_release>2001</year_of_release>
+    <category>PG-13</category>
+    <run_time_minutes>135</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>935549</votes>
+    <gross_total currency="$" scale="M">170.74</gross_total>
+  </movie>
+
+  <movie>
+    <index>89</index>
+    <movie_name>District 9</movie_name>
+    <year_of_release>2009</year_of_release>
+    <category>R</category>
+    <run_time_minutes>112</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Sci-Fi</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>7.9</imdb_rating>
+    <votes>685403</votes>
+    <gross_total currency="$" scale="M">115.65</gross_total>
+  </movie>
+
+  <movie>
+    <index>90</index>
+    <movie_name>The Piano</movie_name>
+    <year_of_release>1993</year_of_release>
+    <category>R</category>
+    <run_time_minutes>121</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Music</genre>
+    <genre>Romance</genre>
+    <imdb_rating>7.5</imdb_rating>
+    <votes>89819</votes>
+    <gross_total currency="$" scale="M">40.16</gross_total>
+  </movie>
+
+  <movie>
+    <index>91</index>
+    <movie_name>Mystic River</movie_name>
+    <year_of_release>2003</year_of_release>
+    <category>R</category>
+    <run_time_minutes>138</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <imdb_rating>7.9</imdb_rating>
+    <votes>459918</votes>
+    <gross_total currency="$" scale="M">90.14</gross_total>
+  </movie>
+
+  <movie>
+    <index>92</index>
+    <movie_name>The Insider</movie_name>
+    <year_of_release>1999</year_of_release>
+    <category>R</category>
+    <run_time_minutes>157</run_time_minutes>
+    <genre>Biography</genre>
+    <genre>Drama</genre>
+    <genre>Thriller</genre>
+    <imdb_rating>7.8</imdb_rating>
+    <votes>172759</votes>
+    <gross_total currency="$" scale="M">28.97</gross_total>
+  </movie>
+
+  <movie>
+    <index>93</index>
+    <movie_name>L.A. Confidential</movie_name>
+    <year_of_release>1997</year_of_release>
+    <category>R</category>
+    <run_time_minutes>138</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <imdb_rating>8.2</imdb_rating>
+    <votes>585555</votes>
+    <gross_total currency="$" scale="M">64.62</gross_total>
+  </movie>
+
+  <movie>
+    <index>94</index>
+    <movie_name>Heat</movie_name>
+    <year_of_release>1995</year_of_release>
+    <category>R</category>
+    <run_time_minutes>170</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>658033</votes>
+    <gross_total currency="$" scale="M">67.44</gross_total>
+  </movie>
+
+  <movie>
+    <index>95</index>
+    <movie_name>The Usual Suspects</movie_name>
+    <year_of_release>1995</year_of_release>
+    <category>R</category>
+    <run_time_minutes>106</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>1087832</votes>
+    <gross_total currency="$" scale="M">23.34</gross_total>
+  </movie>
+
+  <movie>
+    <index>96</index>
+    <movie_name>Cool Hand Luke</movie_name>
+    <year_of_release>1967</year_of_release>
+    <category>GP</category>
+    <run_time_minutes>127</run_time_minutes>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <imdb_rating>8.1</imdb_rating>
+    <votes>178888</votes>
+    <gross_total currency="$" scale="M">16.22</gross_total>
+  </movie>
+
+  <movie>
+    <index>97</index>
+    <movie_name>Eternal Sunshine of the Spotless Mind</movie_name>
+    <year_of_release>2004</year_of_release>
+    <category>R</category>
+    <run_time_minutes>108</run_time_minutes>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.3</imdb_rating>
+    <votes>1011004</votes>
+    <gross_total currency="$" scale="M">34.40</gross_total>
+  </movie>
+
+  <movie>
+    <index>98</index>
+    <movie_name>City Lights</movie_name>
+    <year_of_release>1931</year_of_release>
+    <category>G</category>
+    <run_time_minutes>87</run_time_minutes>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <imdb_rating>8.5</imdb_rating>
+    <votes>186059</votes>
+    <gross_total currency="$" scale="M">0.02</gross_total>
+  </movie>
+
+  <movie>
+    <index>99</index>
+    <movie_name>The Matrix</movie_name>
+    <year_of_release>1999</year_of_release>
+    <category>R</category>
+    <run_time_minutes>136</run_time_minutes>
+    <genre>Action</genre>
+    <genre>Sci-Fi</genre>
+    <imdb_rating>8.7</imdb_rating>
+    <votes>1916083</votes>
+    <gross_total currency="$" scale="M">171.48</gross_total>
+  </movie>
+</movies>

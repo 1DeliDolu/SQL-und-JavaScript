@@ -1,0 +1,1 @@
+GRANT ALL ON t_abt TO pfunke WITH GRANT OPTION; 

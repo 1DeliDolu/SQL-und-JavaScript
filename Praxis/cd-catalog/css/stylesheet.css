@@ -1,0 +1,40 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #333;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #333;
+}
+
+td > img {
+    width: 3rem;
+}
+form {
+   margin: 1rem 0; 
+   line-height: 2rem;
+}
+label > img {
+    width: 2rem;
+}
+button, label + input[type="radio"] {
+    margin-left: 1rem;
+
+}
+.exotisch {
+    background-color: mediumseagreen;
+}
+.billig { background-color:gainsboro;  }
+.ok { background-color:antiquewhite;  }
+.teuer { background-color:gold;  }

@@ -1,0 +1,11 @@
+- title: README
+  file: /README
+- title: 1.Erste_Schritte
+  file: /1.Erste_Schritte/1_Erste_Schritte
+  sections:
+    - title: 1.Forschung
+      file: /1.Erste_Schritte/1_Forschung
+    - title: 2.Datenbank_Objekte
+      file: /1.Erste_Schritte/2_Datenbank_Objekte
+    - title: 3.Insert_Anweisung
+      file: /1.Erste_Schritte/3_Insert_Anweisung

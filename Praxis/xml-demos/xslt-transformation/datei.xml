@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sag-hallo>
+    <hallo lang="de">Hallo Welt!</hallo>
+    <hallo lang="en">Hello world!</hallo>
+    <hallo lang="fr">Bonjour le monde !</hallo>
+    <hallo lang="it">Ciao mondo!</hallo>
+    <hallo lang="es">¡Hola, mundo!</hallo>
+    <hallo lang="pt">Olá mundo!</hallo>
+    <hallo lang="ru">Здравствуйте, мир!</hallo>
+    <hallo lang="cn">你好，世界!</hallo>
+    <hallo lang="jp">こんにちは。</hallo>
+</sag-hallo>

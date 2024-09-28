@@ -1,0 +1,71 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 3rem 5vw;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 90vw;
+  background-color: pink;
+}
+
+col:first-child {
+  width: 15vw;
+}
+
+table, td, th {
+  border: 1px solid #333;
+}
+
+td, th {
+  padding: 0.15rem 0.25rem;
+}
+
+/* Targets */
+h1:target, 
+h2:target {
+  border-left: 5px solid red;
+  padding-left: 1rem;
+}
+
+
+/* Aufgaben */
+
+/* Zeilenköpfe in tbody linksbündig */
+table tbody tr > th {
+  text-align: left;
+}
+
+
+
+/* Abwechselnde Färbung der Zeilen im Tabellenkörper */
+table tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+
+/* Emojis 
+💯 vor Mern-Stack
+👿 nach .NET Stack
+*/
+/* Emoji 💯 vor MERN-Stack */
+table tbody tr:nth-of-type(3) > th::before {
+  content: "💯 ";
+}
+
+/* Emoji 👿 nach .NET Stack */
+table tbody tr:nth-of-type(5) > th::after {
+  content: " 👿";
+}
+/* 
+  Testen Sie in der JavaScript Konsole, ob Ihre Selektorn die gewünschten Elemente auswählen
+  document.querySelector()
+  document.querySelectorAll()
+*/
+
+.markiert {
+  color :crimson;
+  font-weight: bold
+}

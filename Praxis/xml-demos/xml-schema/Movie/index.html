@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <script src="https://cdn.jsdelivr.net/npm/xml-js@1.6.11/dist/xml-js.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Movies</h1>
+
+    <p id="result"></p>
+    <script>
+        // Funktion, um CSV-Datei zu XML umzuwandeln
+        function csvToXml(csv) {
+            const lines = csv.split("\n");
+            const headers = lines[0].split(",");
+
+            let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<movies>\n';
+
+            for (let i = 1; i < lines.length; i++) {
+                if (lines[i].trim() === "") continue; // Leere Zeilen überspringen
+
+                const fields = lines[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/); // Kommas in Anführungszeichen ignorieren
+
+                xml += `  <movie>\n`; // movie Tag ohne id
+
+                for (let j = 0; j < headers.length; j++) {
+                    let header = headers[j].trim().toLowerCase().replace(/\s+/g, "_");
+                    let value = fields[j].trim().replace(/(^"|"$)/g, ""); // Anführungszeichen entfernen
+
+                    // Spezielle Handhabung für Jahr, Genres, Votes und Gross Total
+                    if (header === "year_of_release") {
+                        value = value.replace(/\(|\)/g, ""); // Klammern entfernen
+                        xml += `    <${header}>${value}</${header}>\n`;
+                    } else if (header === "genre") {
+                        // Genres innerhalb eines <genres> Elements zusammenfassen
+                        if (j === 0) {
+                            xml += `    <genres>\n`;
+                        }
+                        const genres = value.split(",").map(g => `<genre>${g.trim()}</genre>`).join("\n");
+                        xml += genres + "\n";
+                        if (j === headers.length - 1) {
+                            xml += `    </genres>\n`;
+                        }
+                    } else if (header === "gross_total") {
+                        // Währung und Millionen im gross_total einfügen
+                        const formattedValue = value.replace(/[$M]/g, "").trim(); // $ und M entfernen
+                        xml += `    <${header} currency="$" million="M">${formattedValue}</${header}>\n`;
+                    } else if (header === "votes") {
+                        // Kommas in der Votes-Zahl entfernen
+                        value = value.replace(/,/g, ""); // Kommas entfernen
+                        xml += `    <${header}>${value}</${header}>\n`;
+                    } else if (header === "index") {
+                        // Optional: Index nur ohne Punkt ausgeben
+                        xml += `    <index>${i}</index>\n`; // Index ohne Punkt
+                    } else {
+                        xml += `    <${header}>${value}</${header}>\n`;
+                    }
+                }
+
+                xml += "  </movie>\n";
+            }
+
+            xml += "</movies>";
+            return xml;
+        }
+
+        // Funktion, um die movies.txt-Datei mit fetch zu laden und zu verarbeiten
+        async function fetchAndConvertCsvToXml() {
+            try {
+                const response = await fetch('movies.txt'); // Pfad zu deiner movies.txt-Datei
+                const csvData = await response.text();
+
+                const xmlData = csvToXml(csvData);
+
+                // Ergebnis in der Konsole ausgeben oder weiterverarbeiten
+                console.log(xmlData);
+
+                // Optional: Du kannst das XML in eine Datei speichern oder weiterverarbeiten
+                // Hier als Beispiel wird die XML in einer Datei heruntergeladen
+                const blob = new Blob([xmlData], { type: "application/xml" });
+                const link = document.createElement("a");
+                link.href = URL.createObjectURL(blob);
+                link.download = "movies.xml";
+                link.click();
+            } catch (error) {
+                console.error("Fehler beim Laden oder Umwandeln der Datei:", error);
+            }
+        }
+
+        // Aufruf der Funktion
+        fetchAndConvertCsvToXml();
+    </script>
+
+</body>
+
+</html>

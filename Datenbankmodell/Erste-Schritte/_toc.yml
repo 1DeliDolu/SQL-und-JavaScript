@@ -1,0 +1,69 @@
+- title: README
+  file: /README
+- title: Erste-Schritte
+  file: /Erste-Schritte/Erste-Schritte
+  sections:
+    - title: 1. ERDPlus Export
+      file: /Erste-Schritte/1_ERDPlus_Export
+    - title: 2. Datenbank Objekte
+      file: /Erste-Schritte/2_Datenbank_Objekte
+    - title: 3. INSERT Anweisungen
+      file: /Erste-Schritte/3_INSERT_Anweisungen
+- title: Getraenkebestellung
+  file: /Getraenkebestellung/Getraenkebestellung
+  sections:
+    - title: 6. ERDPlus Export
+      file: /Getraenkebestellung/6_ERDPluss_Export
+    - title: 7. Datenbank Objekte
+      file: /Getraenkebestellung/7_Datenbank_Objekte
+    - title: 8.Daten erfassen
+      file: /Getraenkebestellung/8_Daten_erfassen
+- title: Polizeivorgaenge
+  file: /Polizeivorgaenge/Polizeivorgaenge
+  sections:
+    - title: 6. ERDPlus Export
+      file: /Polizeivorgaenge/6_ERDPlus_Export
+    - title: 7. Datenebank Objekte
+      file: /Polizeivorgaenge/7_Datenebank_Objekte
+    - title: 8. Daten erfassen
+      file: /Polizeivorgaenge/8_Daten_erfassen
+- title: Carscharing
+  file: /Carscharing/Carscharing
+  sections:
+    - title: 6. ERDPlus Export
+      file: /Carscharing/6_ERDPlus_Export
+    - title: 7. Datenbank Objekte
+      file: /Carscharing/7_Datenbank_Objekte
+    - title: 8. Daten erfassen
+      file: /Carscharing/8_Daten_erfassen
+- title: Exkurs-DML
+  file: /Exkurs-DML/Exkurs-DML
+  sections:
+    - title: INSERT
+      file: /Exkurs-DML/INSERT
+    - title: UPDATE
+      file: /Exkurs-DML/UPDATE
+    - title: DELETE
+      file: /Exkurs-DML/DELETE
+    - title: JOINs
+      file: /Exkurs-DML/JOINs
+    - title: JOINsfuerStudent
+      file: /Exkurs-DML/JOINsfuerStudent
+- title: Immobilien
+  file: /Immobilien/Immobilien
+  sections:
+    - title: 6. ERDPlus Export
+      file: /Immobilien/6_ERDPlus_Export
+    - title: 7. Datenbank Objekte
+      file: /Immobilien/7_Datenbank_Objekte
+    - title: 8. Daten erfassen
+      file: /Immobilien/8_Daten_erfassen
+- title: Flugbuchung
+  file: /Flugbuchung/Flugbuchung
+  sections:
+    - title: 6. ERDPlus Export
+      file: /Flugbuchung/6_ERDPlus_Export
+    - title: 7. Datenbank Objekte
+      file: /Flugbuchung/7_Datenbank_Objekte
+    - title: 8. Daten erfassen
+      file: /Flugbuchung/8_Daten_erfassen

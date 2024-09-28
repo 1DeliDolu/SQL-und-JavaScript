@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Auflistung erlaubter Werte
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="Beatle">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="John"/>
+				<xs:enumeration value="Paul"/>
+				<xs:enumeration value="George"/>
+				<xs:enumeration value="Ringo"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

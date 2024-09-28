@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<standorte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="standorte.xsd">
+<cities>
+    <city id="c100016">Bonn</city>
+    <city id="c53">Fürth</city>
+    <city id="c2502">Gießen</city>
+    <city id="c34100">Kassel</city>
+    <city id="c2500">Marburg</city>
+    <city id="c90">München</city>
+    <city id="c52">Nürnberg</city>
+    <city id="c100012">Würzburg</city>
+</cities>
+<stationen>
+    <station id="s400310" cityref="c100016">
+        <name>Hauptbahnhof</name>
+        <geopos lat="50.731085513638575" lng="7.097994089126587" url="https://www.google.com/maps/?q=50.731085513638575+7.097994089126587"></geopos>
+        <address>
+            <street>Quantiusstraße</street>
+            <number>30-34</number>
+            <zip>53111</zip>
+            <city id="c100016">Bonn</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s402921" cityref="c100016">
+        <name>Georgstraße/Chlodwigplatz</name>
+        <geopos lat="50.74251835350631" lng="7.091808915138245" url="https://www.google.com/maps/?q=50.74251835350631+7.091808915138245"></geopos>
+        <address>
+            <street>Georgstraße</street>
+            <number>28</number>
+            <zip>53111</zip>
+            <city id="c100016">Bonn</city>
+            <district>Nordstadt</district>
+        </address>
+    </station>
+    <station id="s403022" cityref="c100016">
+        <name>Kaiserstraße/Königstraße</name>
+        <geopos lat="50.729382655957934" lng="7.103565037250519" url="https://www.google.com/maps/?q=50.729382655957934+7.103565037250519"></geopos>
+        <address>
+            <street>Kaiserstraße</street>
+            <number>52</number>
+            <zip>53111</zip>
+            <city id="c100016">Bonn</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s403067" cityref="c100016">
+        <name>Godesberger Allee</name>
+        <geopos lat="50.704659841304064" lng="7.132431641221046" url="https://www.google.com/maps/?q=50.704659841304064+7.132431641221046"></geopos>
+        <address>
+            <street>Godesberger Allee</street>
+            <number>189</number>
+            <zip>53175</zip>
+            <city id="c100016">Bonn</city>
+            <district></district>
+        </address>
+    </station>
+    <station id="s403109" cityref="c100016">
+        <name>Reuter Straße 76/DruckTechnik-RheinSieg</name>
+        <geopos lat="50.721289925450655" lng="7.102968245744705" url="https://www.google.com/maps/?q=50.721289925450655+7.102968245744705"></geopos>
+        <address>
+            <street>Reuterstraße</street>
+            <number>76</number>
+            <zip>53113</zip>
+            <city id="c100016">Bonn</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s403221" cityref="c100016">
+        <name>Kesselgasse/studentshome</name>
+        <geopos lat="50.73700793627685" lng="7.099748145388958" url="https://www.google.com/maps/?q=50.73700793627685+7.099748145388958"></geopos>
+        <address>
+            <street>Kesselgasse</street>
+            <number>2</number>
+            <zip>53111</zip>
+            <city id="c100016">Bonn</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s403222" cityref="c100016">
+        <name>Bahnhof Bonn-Beuel</name>
+        <geopos lat="50.73822266478432" lng="7.127651165770885" url="https://www.google.com/maps/?q=50.73822266478432+7.127651165770885"></geopos>
+        <address>
+            <street>Beueler Bahnhofsplatz</street>
+            <number>null</number>
+            <zip>53225</zip>
+            <city id="c100016">Bonn</city>
+            <district>Beuel</district>
+        </address>
+    </station>
+    <station id="s403223" cityref="c100016">
+        <name>Bahnhof Bonn Bad Godesberg</name>
+        <geopos lat="50.683677273624966" lng="7.160291612017318" url="https://www.google.com/maps/?q=50.683677273624966+7.160291612017318"></geopos>
+        <address>
+            <street>Von-Groote-Platz</street>
+            <number>9</number>
+            <zip>53173</zip>
+            <city id="c100016">Bonn</city>
+            <district>Bad Godesberg</district>
+        </address>
+    </station>
+    <station id="s403404" cityref="c100016">
+        <name>Eduard-Otto-Straße</name>
+        <geopos lat="50.71667463313135" lng="7.108912020921707" url="https://www.google.com/maps/?q=50.71667463313135+7.108912020921707"></geopos>
+        <address>
+            <street>Eduard-Otto-Straße</street>
+            <number>26-32</number>
+            <zip>53129</zip>
+            <city id="c100016">Bonn</city>
+            <district>Kessenich</district>
+        </address>
+    </station>
+    <station id="s403412" cityref="c100016">
+        <name>Quartier Südstadt, Weststadt und Poppelsdorf</name>
+        <geopos lat="50.72527381129086" lng="7.095236778259277" url="https://www.google.com/maps/?q=50.72527381129086+7.095236778259277"></geopos>
+        <address>
+            <street>Anwohnerparkzone A, G &amp; W sowie Straßen in Poppelsdorf</street>
+            <number>null</number>
+            <zip>53113</zip>
+            <city id="c100016">Bonn</city>
+            <district>Süd- / Weststadt / Poppelsdorf</district>
+        </address>
+    </station>
+    <station id="s404689" cityref="c100016">
+        <name>Giergasse</name>
+        <geopos lat="50.735631446254544" lng="7.105667404539418" url="https://www.google.com/maps/?q=50.735631446254544+7.105667404539418"></geopos>
+        <address>
+            <street>Giergasse</street>
+            <number>null</number>
+            <zip>53113</zip>
+            <city id="c100016">Bonn</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s404690" cityref="c100016">
+        <name>Maxstraße</name>
+        <geopos lat="50.738673107757236" lng="7.093546788655658" url="https://www.google.com/maps/?q=50.738673107757236+7.093546788655658"></geopos>
+        <address>
+            <street>Maxstraße</street>
+            <number>46</number>
+            <zip>53111</zip>
+            <city id="c100016">Bonn</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s404691" cityref="c100016">
+        <name>Bonner Talweg</name>
+        <geopos lat="50.725563687204165" lng="7.102454206869879" url="https://www.google.com/maps/?q=50.725563687204165+7.102454206869879"></geopos>
+        <address>
+            <street>Bonner Talweg</street>
+            <number>41</number>
+            <zip>53115</zip>
+            <city id="c100016">Bonn</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s404771" cityref="c100016">
+        <name>Hauptbahnhof/Kaiserplatz</name>
+        <geopos lat="50.731280045205985" lng="7.100578397512436" url="https://www.google.com/maps/?q=50.731280045205985+7.100578397512436"></geopos>
+        <address>
+            <street>Kaiserplatz</street>
+            <number>15</number>
+            <zip>53113</zip>
+            <city id="c100016">Bonn</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s404994" cityref="c100016">
+        <name>Südstadtgarage/Bonner Talweg</name>
+        <geopos lat="50.72306549663528" lng="7.104165743636372" url="https://www.google.com/maps/?q=50.72306549663528+7.104165743636372"></geopos>
+        <address>
+            <street>Bonner Talweg</street>
+            <number>83-89</number>
+            <zip>53113</zip>
+            <city id="c100016">Bonn</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s405184" cityref="c100016">
+        <name>Zingsheimstrasse/Friedrich-Breuer-Straße</name>
+        <geopos lat="50.73774321149575" lng="7.120605647432967" url="https://www.google.com/maps/?q=50.73774321149575+7.120605647432967"></geopos>
+        <address>
+            <street>Zingsheimstrasse</street>
+            <number>4-8</number>
+            <zip>53225</zip>
+            <city id="c100016">Bonn</city>
+            <district>Beuel</district>
+        </address>
+    </station>
+    <station id="s406120" cityref="c100016">
+        <name>Baumschulallee/Poppelsdorfer Allee</name>
+        <geopos lat="50.73023982249019" lng="7.0972940325737" url="https://www.google.com/maps/?q=50.73023982249019+7.0972940325737"></geopos>
+        <address>
+            <street>Baumschulallee</street>
+            <number>2</number>
+            <zip>53115</zip>
+            <city id="c100016">Bonn</city>
+            <district>Weststadt</district>
+        </address>
+    </station>
+    <station id="s406441" cityref="c100016">
+        <name>Argelander Straße</name>
+        <geopos lat="50.724413559962876" lng="7.098961550926219" url="https://www.google.com/maps/?q=50.724413559962876+7.098961550926219"></geopos>
+        <address>
+            <street>Argelander Straße</street>
+            <number>70</number>
+            <zip>53115</zip>
+            <city id="c100016">Bonn</city>
+            <district>Bonn</district>
+        </address>
+    </station>
+    <station id="s406442" cityref="c100016">
+        <name>Markusstraße</name>
+        <geopos lat="50.714841" lng="7.11256" url="https://www.google.com/maps/?q=50.714841+7.11256"></geopos>
+        <address>
+            <street>Markusstraße</street>
+            <number>4</number>
+            <zip>53129</zip>
+            <city id="c100016">Bonn</city>
+            <district>Kessenich</district>
+        </address>
+    </station>
+    <station id="s406544" cityref="c100016">
+        <name>Haydnstraße</name>
+        <geopos lat="50.7306993022525" lng="7.088733813491785" url="https://www.google.com/maps/?q=50.7306993022525+7.088733813491785"></geopos>
+        <address>
+            <street>Haydnstraße</street>
+            <number>1</number>
+            <zip>53115</zip>
+            <city id="c100016">Bonn</city>
+            <district>Weststadt</district>
+        </address>
+    </station>
+    <station id="s406573" cityref="c100016">
+        <name>Doetschstraße</name>
+        <geopos lat="50.73825879042601" lng="7.105634361505508" url="https://www.google.com/maps/?q=50.73825879042601+7.105634361505508"></geopos>
+        <address>
+            <street>Doetschstraße</street>
+            <number>3</number>
+            <zip>53111</zip>
+            <city id="c100016">Bonn</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s407870" cityref="c100016">
+        <name>Limpericher Straße</name>
+        <geopos lat="50.734562498831835" lng="7.124480988472669" url="https://www.google.com/maps/?q=50.734562498831835+7.124480988472669"></geopos>
+        <address>
+            <street>Limpericher Straße</street>
+            <number>86</number>
+            <zip>53225</zip>
+            <city id="c100016">Bonn</city>
+            <district>Beuel</district>
+        </address>
+    </station>
+    <station id="s408159" cityref="c100016">
+        <name>An der Elisabethkirche</name>
+        <geopos lat="50.720748565956406" lng="7.109666542327886" url="https://www.google.com/maps/?q=50.720748565956406+7.109666542327886"></geopos>
+        <address>
+            <street>An der Elisabethkirche</street>
+            <number>27</number>
+            <zip>53113</zip>
+            <city id="c100016">Bonn</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s32995" cityref="c53">
+        <name>Bahnhof</name>
+        <geopos lat="49.46980458235388" lng="10.993100702762604" url="https://www.google.com/maps/?q=49.46980458235388+10.993100702762604"></geopos>
+        <address>
+            <street>Gebhardtstraße</street>
+            <number>2</number>
+            <zip>90762</zip>
+            <city id="c53">Fürth</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s404995" cityref="c53">
+        <name>Karolinenstraße</name>
+        <geopos lat="49.468843475877804" lng="10.991190969944" url="https://www.google.com/maps/?q=49.468843475877804+10.991190969944"></geopos>
+        <address>
+            <street>Karolinenstraße</street>
+            <number>52a</number>
+            <zip>90763</zip>
+            <city id="c53">Fürth</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s405477" cityref="c53">
+        <name>Billinganlage</name>
+        <geopos lat="49.48093982125153" lng="10.977699731946586" url="https://www.google.com/maps/?q=49.48093982125153+10.977699731946586"></geopos>
+        <address>
+            <street>Billinganlage</street>
+            <number>10</number>
+            <zip>90766</zip>
+            <city id="c53">Fürth</city>
+            <district>Hardhöhe</district>
+        </address>
+    </station>
+    <station id="s408288" cityref="c53">
+        <name>Magazinstraße</name>
+        <geopos lat="49.45668830234975" lng="10.998694214424859" url="https://www.google.com/maps/?q=49.45668830234975+10.998694214424859"></geopos>
+        <address>
+            <street>Magazinstraße</street>
+            <number>35-39</number>
+            <zip>90763</zip>
+            <city id="c53">Fürth</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s408289" cityref="c53">
+        <name>Hardhöhe</name>
+        <geopos lat="49.48044069299497" lng="10.95700493904883" url="https://www.google.com/maps/?q=49.48044069299497+10.95700493904883"></geopos>
+        <address>
+            <street>Komotauer Straße</street>
+            <number>30</number>
+            <zip>90766</zip>
+            <city id="c53">Fürth</city>
+            <district></district>
+        </address>
+    </station>
+    <station id="s408438" cityref="c53">
+        <name>Cadolzburger Straße ggü. Nr. 6</name>
+        <geopos lat="49.48016808396029" lng="10.977583208058036" url="https://www.google.com/maps/?q=49.48016808396029+10.977583208058036"></geopos>
+        <address>
+            <street>Cadolzburger Straße</street>
+            <number>ggü. 6</number>
+            <zip>90766</zip>
+            <city id="c53">Fürth</city>
+            <district>Billinganlage Altstadt</district>
+        </address>
+    </station>
+    <station id="s408439" cityref="c53">
+        <name>Bahnhofplatz</name>
+        <geopos lat="49.470124952881825" lng="10.990731795057172" url="https://www.google.com/maps/?q=49.470124952881825+10.990731795057172"></geopos>
+        <address>
+            <street>Bahnhofplatz</street>
+            <number>null</number>
+            <zip>90762</zip>
+            <city id="c53">Fürth</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s408440" cityref="c53">
+        <name>Herrnstraße 71 [Stresemannplatz]</name>
+        <geopos lat="49.46512433196959" lng="10.99424489250282" url="https://www.google.com/maps/?q=49.46512433196959+10.99424489250282"></geopos>
+        <address>
+            <street>Herrnstraße</street>
+            <number>71</number>
+            <zip>60763</zip>
+            <city id="c53">Fürth</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s408441" cityref="c53">
+        <name>Helmstraße 2 [Königsplatz]</name>
+        <geopos lat="49.477651427082264" lng="10.990481886013072" url="https://www.google.com/maps/?q=49.477651427082264+10.990481886013072"></geopos>
+        <address>
+            <street>Helmstraße</street>
+            <number>2</number>
+            <zip>90762</zip>
+            <city id="c53">Fürth</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s408442" cityref="c53">
+        <name>Steubenstraße 13</name>
+        <geopos lat="49.46156433155138" lng="10.99100763529077" url="https://www.google.com/maps/?q=49.46156433155138+10.99100763529077"></geopos>
+        <address>
+            <street>Steubenstraße</street>
+            <number>13</number>
+            <zip>90763</zip>
+            <city id="c53">Fürth</city>
+            <district>Südstadt</district>
+        </address>
+    </station>
+    <station id="s408443" cityref="c53">
+        <name>Gebhardtstraße 47-49</name>
+        <geopos lat="49.468501750421524" lng="10.999547671717437" url="https://www.google.com/maps/?q=49.468501750421524+10.999547671717437"></geopos>
+        <address>
+            <street>Gebhardtstraße</street>
+            <number>47-49</number>
+            <zip>90762</zip>
+            <city id="c53">Fürth</city>
+            <district>Stadtgrenze</district>
+        </address>
+    </station>
+    <station id="s408507" cityref="c53">
+        <name>Dr.-Mack-Straße</name>
+        <geopos lat="49.46892004832818" lng="11.00818588530251" url="https://www.google.com/maps/?q=49.46892004832818+11.00818588530251"></geopos>
+        <address>
+            <street>Dr.-Mack-Straße</street>
+            <number>null</number>
+            <zip>90762</zip>
+            <city id="c53">Fürth</city>
+            <district>Am Stadtpark</district>
+        </address>
+    </station>
+    <station id="s400167" cityref="c2502">
+        <name>Bahnhof unterhalb Parkhaus</name>
+        <geopos lat="50.580084096669204" lng="8.665270507335663" url="https://www.google.com/maps/?q=50.580084096669204+8.665270507335663"></geopos>
+        <address>
+            <street>An der alten Post</street>
+            <number>6</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Bahnhof</district>
+        </address>
+    </station>
+    <station id="s400586" cityref="c2502">
+        <name>Ludwigstraße</name>
+        <geopos lat="50.57908771398635" lng="8.674103021621704" url="https://www.google.com/maps/?q=50.57908771398635+8.674103021621704"></geopos>
+        <address>
+            <street>Ludwigstraße</street>
+            <number>45</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s400587" cityref="c2502">
+        <name>Wetzsteinstraße</name>
+        <geopos lat="50.58819744368481" lng="8.673040866851807" url="https://www.google.com/maps/?q=50.58819744368481+8.673040866851807"></geopos>
+        <address>
+            <street>Wetzsteinstraße</street>
+            <number>11</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s400588" cityref="c2502">
+        <name>Richard-Wagner-Straße</name>
+        <geopos lat="50.57027945567747" lng="8.662295937538147" url="https://www.google.com/maps/?q=50.57027945567747+8.662295937538147"></geopos>
+        <address>
+            <street>Richard-Wagner-Straße</street>
+            <number>null</number>
+            <zip>35392</zip>
+            <city id="c2502">Gießen</city>
+            <district>Uni-Klinik</district>
+        </address>
+    </station>
+    <station id="s400589" cityref="c2502">
+        <name>Rodheimerstraße</name>
+        <geopos lat="50.588430741340794" lng="8.664603978395462" url="https://www.google.com/maps/?q=50.588430741340794+8.664603978395462"></geopos>
+        <address>
+            <street>Rodheimerstraße</street>
+            <number>17</number>
+            <zip>35398</zip>
+            <city id="c2502">Gießen</city>
+            <district>West</district>
+        </address>
+    </station>
+    <station id="s402366" cityref="c2502">
+        <name>Alter Wetzlarer Weg</name>
+        <geopos lat="50.57897359701748" lng="8.66449736058712" url="https://www.google.com/maps/?q=50.57897359701748+8.66449736058712"></geopos>
+        <address>
+            <street>Alter Wetzlarer Weg</street>
+            <number>4</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Bahnhof</district>
+        </address>
+    </station>
+    <station id="s402893" cityref="c2502">
+        <name>Tiefgarage Rathaus</name>
+        <geopos lat="50.58392635967962" lng="8.679002076387405" url="https://www.google.com/maps/?q=50.58392635967962+8.679002076387405"></geopos>
+        <address>
+            <street>Berliner Platz</street>
+            <number>1</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s405432" cityref="c2502">
+        <name>Bahnhof im Parkhaus</name>
+        <geopos lat="50.58004641334874" lng="8.665112257003784" url="https://www.google.com/maps/?q=50.58004641334874+8.665112257003784"></geopos>
+        <address>
+            <street>Bahnhofstraße</street>
+            <number>null</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Bahnhof</district>
+        </address>
+    </station>
+    <station id="s405847" cityref="c2502">
+        <name>Wilhelmstraße</name>
+        <geopos lat="50.57573903242644" lng="8.673559874296188" url="https://www.google.com/maps/?q=50.57573903242644+8.673559874296188"></geopos>
+        <address>
+            <street>Wilhelmstraße</street>
+            <number>56a</number>
+            <zip>35392</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s405958" cityref="c2502">
+        <name>Grünberger Straße</name>
+        <geopos lat="50.58396861570854" lng="8.687793830688406" url="https://www.google.com/maps/?q=50.58396861570854+8.687793830688406"></geopos>
+        <address>
+            <street>Grünberger Straße</street>
+            <number>40-42</number>
+            <zip>35394</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s406269" cityref="c2502">
+        <name>Eichgärtenallee</name>
+        <geopos lat="50.58778432629835" lng="8.687535139881106" url="https://www.google.com/maps/?q=50.58778432629835+8.687535139881106"></geopos>
+        <address>
+            <street>Eichgärtenallee</street>
+            <number>null</number>
+            <zip>35394</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s408195" cityref="c2502">
+        <name>Liebigstraße</name>
+        <geopos lat="50.576497" lng="8.676626" url="https://www.google.com/maps/?q=50.576497+8.676626"></geopos>
+        <address>
+            <street>Liebigstraße</street>
+            <number>97A</number>
+            <zip>35392</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s408260" cityref="c2502">
+        <name>Gnauthstraße</name>
+        <geopos lat="50.5782644510162" lng="8.679352565641466" url="https://www.google.com/maps/?q=50.5782644510162+8.679352565641466"></geopos>
+        <address>
+            <street>Gnauthstraße</street>
+            <number>27</number>
+            <zip>35390</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s408354" cityref="c2502">
+        <name>Ebelstraße</name>
+        <geopos lat="50.577673678780435" lng="8.674727062123793" url="https://www.google.com/maps/?q=50.577673678780435+8.674727062123793"></geopos>
+        <address>
+            <street>Ebelstraße</street>
+            <number>1</number>
+            <zip>35392</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s408519" cityref="c2502">
+        <name>Kugelberg</name>
+        <geopos lat="50.584077759966696" lng="8.697799656413963" url="https://www.google.com/maps/?q=50.584077759966696+8.697799656413963"></geopos>
+        <address>
+            <street>Kugelberg</street>
+            <number>57</number>
+            <zip>35394</zip>
+            <city id="c2502">Gießen</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s32983" cityref="c34100">
+        <name>Kassel Hbf</name>
+        <geopos lat="51.317557631004846" lng="9.489532113075256" url="https://www.google.com/maps/?q=51.317557631004846+9.489532113075256"></geopos>
+        <address>
+            <street>Franz-Ulrich-Straße</street>
+            <number>null</number>
+            <zip>34117</zip>
+            <city id="c34100">Kassel</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s32984" cityref="c34100">
+        <name>Bhf. Wilhelmshöhe - Ost</name>
+        <geopos lat="51.31233138980236" lng="9.448270350694656" url="https://www.google.com/maps/?q=51.31233138980236+9.448270350694656"></geopos>
+        <address>
+            <street>Wilhelmshöher Allee</street>
+            <number>241</number>
+            <zip>34121</zip>
+            <city id="c34100">Kassel</city>
+            <district>Wilhelmshöhe</district>
+        </address>
+    </station>
+    <station id="s400391" cityref="c34100">
+        <name>Goethestern</name>
+        <geopos lat="51.31512402948247" lng="9.467411264777184" url="https://www.google.com/maps/?q=51.31512402948247+9.467411264777184"></geopos>
+        <address>
+            <street>Goethestraße</street>
+            <number>56</number>
+            <zip>34119</zip>
+            <city id="c34100">Kassel</city>
+            <district>West</district>
+        </address>
+    </station>
+    <station id="s400447" cityref="c34100">
+        <name>Flüsseviertel</name>
+        <geopos lat="51.306760548940915" lng="9.43677306175232" url="https://www.google.com/maps/?q=51.306760548940915+9.43677306175232"></geopos>
+        <address>
+            <street>Lahnweg</street>
+            <number>25</number>
+            <zip>34131</zip>
+            <city id="c34100">Kassel</city>
+            <district>Wilhelmshöhe</district>
+        </address>
+    </station>
+    <station id="s400570" cityref="c34100">
+        <name>Städtische Werke</name>
+        <geopos lat="51.311774193467016" lng="9.486827775835991" url="https://www.google.com/maps/?q=51.311774193467016+9.486827775835991"></geopos>
+        <address>
+            <street>Wilhelmshöher Allee</street>
+            <number>16</number>
+            <zip>34117</zip>
+            <city id="c34100">Kassel</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s400576" cityref="c34100">
+        <name>Kirchweg</name>
+        <geopos lat="51.310867058949306" lng="9.46642354130745" url="https://www.google.com/maps/?q=51.310867058949306+9.46642354130745"></geopos>
+        <address>
+            <street>Kirchweg</street>
+            <number>15a</number>
+            <zip>34121</zip>
+            <city id="c34100">Kassel</city>
+            <district>Wehlheiden</district>
+        </address>
+    </station>
+    <station id="s400769" cityref="c34100">
+        <name>Menzelstraße</name>
+        <geopos lat="51.30455081938065" lng="9.487995877861977" url="https://www.google.com/maps/?q=51.30455081938065+9.487995877861977"></geopos>
+        <address>
+            <street>Menzelstraße</street>
+            <number>4</number>
+            <zip>34121</zip>
+            <city id="c34100">Kassel</city>
+            <district>Süd</district>
+        </address>
+    </station>
+    <station id="s400770" cityref="c34100">
+        <name>Goetheanlage</name>
+        <geopos lat="51.31474513770359" lng="9.459040760993958" url="https://www.google.com/maps/?q=51.31474513770359+9.459040760993958"></geopos>
+        <address>
+            <street>Goethestraße</street>
+            <number>92</number>
+            <zip>34119</zip>
+            <city id="c34100">Kassel</city>
+            <district>West</district>
+        </address>
+    </station>
+    <station id="s402350" cityref="c34100">
+        <name>Gründerzentrum Marbachshöhe</name>
+        <geopos lat="51.305779436547965" lng="9.444479048252106" url="https://www.google.com/maps/?q=51.305779436547965+9.444479048252106"></geopos>
+        <address>
+            <street>Ludwig-Erhard-Straße</street>
+            <number>10</number>
+            <zip>34131</zip>
+            <city id="c34100">Kassel</city>
+            <district>Marbachshöhe</district>
+        </address>
+    </station>
+    <station id="s402493" cityref="c34100">
+        <name>Westerburgstraße</name>
+        <geopos lat="51.3139172149853" lng="9.477494359016418" url="https://www.google.com/maps/?q=51.3139172149853+9.477494359016418"></geopos>
+        <address>
+            <street>Westerburgstraße</street>
+            <number>8</number>
+            <zip>34119</zip>
+            <city id="c34100">Kassel</city>
+            <district>West</district>
+        </address>
+    </station>
+    <station id="s402662" cityref="c34100">
+        <name>Uni Campus</name>
+        <geopos lat="51.32289693928277" lng="9.50842022895813" url="https://www.google.com/maps/?q=51.32289693928277+9.50842022895813"></geopos>
+        <address>
+            <street>Mönchebergstraße</street>
+            <number>19</number>
+            <zip>34125</zip>
+            <city id="c34100">Kassel</city>
+            <district>Wesertor</district>
+        </address>
+    </station>
+    <station id="s402663" cityref="c34100">
+        <name>Kirche Kirchditmold</name>
+        <geopos lat="51.32327513870505" lng="9.443787038326263" url="https://www.google.com/maps/?q=51.32327513870505+9.443787038326263"></geopos>
+        <address>
+            <street>Schanzenstraße</street>
+            <number>15</number>
+            <zip>34130</zip>
+            <city id="c34100">Kassel</city>
+            <district>Kirchditmold</district>
+        </address>
+    </station>
+    <station id="s402703" cityref="c34100">
+        <name>Königstor</name>
+        <geopos lat="51.312825077660435" lng="9.48645830154419" url="https://www.google.com/maps/?q=51.312825077660435+9.48645830154419"></geopos>
+        <address>
+            <street>Königstor</street>
+            <number>13</number>
+            <zip>34119</zip>
+            <city id="c34100">Kassel</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s402718" cityref="c34100">
+        <name>Bhf. Wilhelmshöhe - Park &amp; Ride</name>
+        <geopos lat="51.31221642347376" lng="9.448644518852234" url="https://www.google.com/maps/?q=51.31221642347376+9.448644518852234"></geopos>
+        <address>
+            <street>Bertha-von-Suttner-Straße</street>
+            <number>2</number>
+            <zip>34131</zip>
+            <city id="c34100">Kassel</city>
+            <district>Wilhelmshöhe</district>
+        </address>
+    </station>
+    <station id="s402719" cityref="c34100">
+        <name>Universität Wilhelmshöher Allee</name>
+        <geopos lat="51.31074441594025" lng="9.4722318649292" url="https://www.google.com/maps/?q=51.31074441594025+9.4722318649292"></geopos>
+        <address>
+            <street>Ziegelstraße</street>
+            <number>8</number>
+            <zip>34121</zip>
+            <city id="c34100">Kassel</city>
+            <district>Wehlheiden</district>
+        </address>
+    </station>
+    <station id="s408012" cityref="c34100">
+        <name>Martinsplatz</name>
+        <geopos lat="51.316840684620566" lng="9.50127167858318" url="https://www.google.com/maps/?q=51.316840684620566+9.50127167858318"></geopos>
+        <address>
+            <street>Martinsplatz</street>
+            <number>5A</number>
+            <zip>34117</zip>
+            <city id="c34100">Kassel</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s408141" cityref="c34100">
+        <name>Samuel-Beckett-Anlage</name>
+        <geopos lat="51.31749533106213" lng="9.470044854002026" url="https://www.google.com/maps/?q=51.31749533106213+9.470044854002026"></geopos>
+        <address>
+            <street>Samuel-Beckett-Anlage</street>
+            <number>7</number>
+            <zip>34119</zip>
+            <city id="c34100">Kassel</city>
+            <district>Vorderer Westen</district>
+        </address>
+    </station>
+    <station id="s408437" cityref="c34100">
+        <name>Riedwiesen</name>
+        <geopos lat="51.32150458223378" lng="9.439126954042763" url="https://www.google.com/maps/?q=51.32150458223378+9.439126954042763"></geopos>
+        <address>
+            <street>Riedwiesen</street>
+            <number>30</number>
+            <zip>34130</zip>
+            <city id="c34100">Kassel</city>
+            <district>Kirchditmold</district>
+        </address>
+    </station>
+    <station id="s2503" cityref="c2500">
+        <name>HBF Stadtausgang Parkdeck</name>
+        <geopos lat="50.81828300575925" lng="8.77456247806549" url="https://www.google.com/maps/?q=50.81828300575925+8.77456247806549"></geopos>
+        <address>
+            <street>Bahnhofstraße</street>
+            <number>32</number>
+            <zip>35039</zip>
+            <city id="c2500">Marburg</city>
+            <district>Bahnhofsviertel</district>
+        </address>
+    </station>
+    <station id="s2515" cityref="c2500">
+        <name>Ocker</name>
+        <geopos lat="50.80095364679612" lng="8.748838752508163" url="https://www.google.com/maps/?q=50.80095364679612+8.748838752508163"></geopos>
+        <address>
+            <street>Stiftstraße</street>
+            <number>5</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Ockershausen</district>
+        </address>
+    </station>
+    <station id="s2516" cityref="c2500">
+        <name>Rose</name>
+        <geopos lat="50.8357778712646" lng="8.760826885700226" url="https://www.google.com/maps/?q=50.8357778712646+8.760826885700226"></geopos>
+        <address>
+            <street>Wehrdaer Straße</street>
+            <number>112</number>
+            <zip>35041</zip>
+            <city id="c2500">Marburg</city>
+            <district>Wehrda</district>
+        </address>
+    </station>
+    <station id="s2520" cityref="c2500">
+        <name>Stein</name>
+        <geopos lat="50.810824601773845" lng="8.771494030952454" url="https://www.google.com/maps/?q=50.810824601773845+8.771494030952454"></geopos>
+        <address>
+            <street>Pilgrimstein</street>
+            <number>17</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Oberstadt</district>
+        </address>
+    </station>
+    <station id="s2521" cityref="c2500">
+        <name>Süd</name>
+        <geopos lat="50.794393609601535" lng="8.766438066959381" url="https://www.google.com/maps/?q=50.794393609601535+8.766438066959381"></geopos>
+        <address>
+            <street>Ernst-Moritz-Arndt-Straße</street>
+            <number>null</number>
+            <zip>35039</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südbahnhof</district>
+        </address>
+    </station>
+    <station id="s2532" cityref="c2500">
+        <name>Brücke</name>
+        <geopos lat="50.79887782817154" lng="8.762294054031372" url="https://www.google.com/maps/?q=50.79887782817154+8.762294054031372"></geopos>
+        <address>
+            <street>Frankfurter Straße</street>
+            <number>66</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s2533" cityref="c2500">
+        <name>Georg</name>
+        <geopos lat="50.8087568488052" lng="8.78383755683899" url="https://www.google.com/maps/?q=50.8087568488052+8.78383755683899"></geopos>
+        <address>
+            <street>Georg-Voigt-Straße</street>
+            <number>74</number>
+            <zip>35039</zip>
+            <city id="c2500">Marburg</city>
+            <district>Ortenberg</district>
+        </address>
+    </station>
+    <station id="s32941" cityref="c2500">
+        <name>Softwarecenter</name>
+        <geopos lat="50.80291071432312" lng="8.769066631793976" url="https://www.google.com/maps/?q=50.80291071432312+8.769066631793976"></geopos>
+        <address>
+            <street>Softwarecenter</street>
+            <number>3</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s400253" cityref="c2500">
+        <name>Friedrich</name>
+        <geopos lat="50.804648189341854" lng="8.759740591049194" url="https://www.google.com/maps/?q=50.804648189341854+8.759740591049194"></geopos>
+        <address>
+            <street>Friedrichstraße</street>
+            <number>36</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s400255" cityref="c2500">
+        <name>Friedhof</name>
+        <geopos lat="50.80338873828316" lng="8.75636637210846" url="https://www.google.com/maps/?q=50.80338873828316+8.75636637210846"></geopos>
+        <address>
+            <street>Ockershäuser Allee</street>
+            <number>18</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Ockershausen</district>
+        </address>
+    </station>
+    <station id="s400643" cityref="c2500">
+        <name>Am Plan</name>
+        <geopos lat="50.80766191959518" lng="8.767392933368683" url="https://www.google.com/maps/?q=50.80766191959518+8.767392933368683"></geopos>
+        <address>
+            <street>Am Plan</street>
+            <number>2</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Oberstadt</district>
+        </address>
+    </station>
+    <station id="s400815" cityref="c2500">
+        <name>Elisabethkirche</name>
+        <geopos lat="50.81501406323711" lng="8.772247731685638" url="https://www.google.com/maps/?q=50.81501406323711+8.772247731685638"></geopos>
+        <address>
+            <street>Firmaneistraße</street>
+            <number>1</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Biegenviertel</district>
+        </address>
+    </station>
+    <station id="s400996" cityref="c2500">
+        <name>Stadtbüro</name>
+        <geopos lat="50.790510895153204" lng="8.766902089118958" url="https://www.google.com/maps/?q=50.790510895153204+8.766902089118958"></geopos>
+        <address>
+            <street>Frauenbergstraße</street>
+            <number>35</number>
+            <zip>35039</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südbahnhof</district>
+        </address>
+    </station>
+    <station id="s401958" cityref="c2500">
+        <name>Haselhecke</name>
+        <geopos lat="50.815268266039084" lng="8.749792277812958" url="https://www.google.com/maps/?q=50.815268266039084+8.749792277812958"></geopos>
+        <address>
+            <street>Haselhecke</street>
+            <number>10a</number>
+            <zip>35041</zip>
+            <city id="c2500">Marburg</city>
+            <district>Marbach</district>
+        </address>
+    </station>
+    <station id="s402304" cityref="c2500">
+        <name>Turnhalle</name>
+        <geopos lat="50.801913967782845" lng="8.767618238925934" url="https://www.google.com/maps/?q=50.801913967782845+8.767618238925934"></geopos>
+        <address>
+            <street>Frankfurter Straße</street>
+            <number>12</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s402859" cityref="c2500">
+        <name>Rudolphsplatz</name>
+        <geopos lat="50.80691740392303" lng="8.772360384464264" url="https://www.google.com/maps/?q=50.80691740392303+8.772360384464264"></geopos>
+        <address>
+            <street>Am Grün</street>
+            <number>18</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s402977" cityref="c2500">
+        <name>Staatsarchiv</name>
+        <geopos lat="50.803868452447006" lng="8.762088865041733" url="https://www.google.com/maps/?q=50.803868452447006+8.762088865041733"></geopos>
+        <address>
+            <street>Friedrichstraße</street>
+            <number>24</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s405174" cityref="c2500">
+        <name>Quod</name>
+        <geopos lat="50.80512534800167" lng="8.770673274993896" url="https://www.google.com/maps/?q=50.80512534800167+8.770673274993896"></geopos>
+        <address>
+            <street>Kreuzung Jägerstraße/Am Grün</street>
+            <number>null</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s405596" cityref="c2500">
+        <name>Cappel Tegut</name>
+        <geopos lat="50.78723470994426" lng="8.767214566469193" url="https://www.google.com/maps/?q=50.78723470994426+8.767214566469193"></geopos>
+        <address>
+            <street>Marburger Straße</street>
+            <number>100</number>
+            <zip>35043</zip>
+            <city id="c2500">Marburg</city>
+            <district>Cappel</district>
+        </address>
+    </station>
+    <station id="s406270" cityref="c2500">
+        <name>Georg-Gaßmann-Stadion</name>
+        <geopos lat="50.798277" lng="8.752365" url="https://www.google.com/maps/?q=50.798277+8.752365"></geopos>
+        <address>
+            <street>Leopold-Lucas-Straße</street>
+            <number>50</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s406667" cityref="c2500">
+        <name>Haspelstraße</name>
+        <geopos lat="50.804321411244864" lng="8.76576080918312" url="https://www.google.com/maps/?q=50.804321411244864+8.76576080918312"></geopos>
+        <address>
+            <street>Haspelstraße</street>
+            <number>23</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s406717" cityref="c2500">
+        <name>Brüder-Grimm-Straße</name>
+        <geopos lat="50.798601868307564" lng="8.784729391336441" url="https://www.google.com/maps/?q=50.798601868307564+8.784729391336441"></geopos>
+        <address>
+            <street>Brüder-Grimm-Straße</street>
+            <number>1A</number>
+            <zip>35039</zip>
+            <city id="c2500">Marburg</city>
+            <district>Hansenhäuser</district>
+        </address>
+    </station>
+    <station id="s408083" cityref="c2500">
+        <name>August-Bebel-Platz</name>
+        <geopos lat="50.77855359369565" lng="8.767599147115675" url="https://www.google.com/maps/?q=50.77855359369565+8.767599147115675"></geopos>
+        <address>
+            <street>Marburger Straße</street>
+            <number>16a</number>
+            <zip>35043</zip>
+            <city id="c2500">Marburg</city>
+            <district>Cappel</district>
+        </address>
+    </station>
+    <station id="s408202" cityref="c2500">
+        <name>Im Lichtenholz</name>
+        <geopos lat="50.786086872209076" lng="8.77295459755328" url="https://www.google.com/maps/?q=50.786086872209076+8.77295459755328"></geopos>
+        <address>
+            <street>Im Lichtenholz</street>
+            <number>60</number>
+            <zip>35043</zip>
+            <city id="c2500">Marburg</city>
+            <district>Cappel</district>
+        </address>
+    </station>
+    <station id="s408279" cityref="c2500">
+        <name>Friedrichsplatz</name>
+        <geopos lat="50.80331213883237" lng="8.763930248947759" url="https://www.google.com/maps/?q=50.80331213883237+8.763930248947759"></geopos>
+        <address>
+            <street>Friedrichsplatz</street>
+            <number>null</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s408315" cityref="c2500">
+        <name>HBF Nordausgang Ladesäule</name>
+        <geopos lat="50.81955325495437" lng="8.773966081072444" url="https://www.google.com/maps/?q=50.81955325495437+8.773966081072444"></geopos>
+        <address>
+            <street>Neue Kasseler Straße</street>
+            <number>1</number>
+            <zip>35039</zip>
+            <city id="c2500">Marburg</city>
+            <district>Bahnhofsviertel</district>
+        </address>
+    </station>
+    <station id="s408316" cityref="c2500">
+        <name>Savignystraße</name>
+        <geopos lat="50.810901200172346" lng="8.776344787882408" url="https://www.google.com/maps/?q=50.810901200172346+8.776344787882408"></geopos>
+        <address>
+            <street>Savignystraße</street>
+            <number>3-21</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Biegenviertel</district>
+        </address>
+    </station>
+    <station id="s408470" cityref="c2500">
+        <name>Radestraße</name>
+        <geopos lat="50.801655558788624" lng="8.759786312494043" url="https://www.google.com/maps/?q=50.801655558788624+8.759786312494043"></geopos>
+        <address>
+            <street>Radestraße</street>
+            <number>1</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Südviertel</district>
+        </address>
+    </station>
+    <station id="s408472" cityref="c2500">
+        <name>Erlengraben</name>
+        <geopos lat="50.806935966768485" lng="8.775762080198206" url="https://www.google.com/maps/?q=50.806935966768485+8.775762080198206"></geopos>
+        <address>
+            <street>Am Erlengraben</street>
+            <number>12a</number>
+            <zip>35037</zip>
+            <city id="c2500">Marburg</city>
+            <district>Weidenhausen</district>
+        </address>
+    </station>
+    <station id="s401104" cityref="c90">
+        <name>Donnersbergerbrücke</name>
+        <geopos lat="48.144888989252756" lng="11.535210013389587" url="https://www.google.com/maps/?q=48.144888989252756+11.535210013389587"></geopos>
+        <address>
+            <street>Richelstraße</street>
+            <number>null</number>
+            <zip>80634</zip>
+            <city id="c90">München</city>
+            <district>Neuhausen</district>
+        </address>
+    </station>
+    <station id="s401157" cityref="c90">
+        <name>Hauptbahnhof NORD</name>
+        <geopos lat="48.142766358968984" lng="11.558915376663208" url="https://www.google.com/maps/?q=48.142766358968984+11.558915376663208"></geopos>
+        <address>
+            <street>Marsstraße</street>
+            <number>11</number>
+            <zip>80335</zip>
+            <city id="c90">München</city>
+            <district>Zentrum</district>
+        </address>
+    </station>
+    <station id="s402403" cityref="c90">
+        <name>Bahnhof</name>
+        <geopos lat="48.14981043338026" lng="11.458182334899902" url="https://www.google.com/maps/?q=48.14981043338026+11.458182334899902"></geopos>
+        <address>
+            <street>Kaflerstraße</street>
+            <number>2-14</number>
+            <zip>81241</zip>
+            <city id="c90">München</city>
+            <district>Pasing</district>
+        </address>
+    </station>
+    <station id="s405878" cityref="c90">
+        <name>Parkraumquartier Hauptbahnhof</name>
+        <geopos lat="48.137880031502576" lng="11.560072915344222" url="https://www.google.com/maps/?q=48.137880031502576+11.560072915344222"></geopos>
+        <address>
+            <street>Senefelderstr.</street>
+            <number>null</number>
+            <zip>80335</zip>
+            <city id="c90">München</city>
+            <district>Hbf</district>
+        </address>
+    </station>
+    <station id="s408556" cityref="c90">
+        <name>Weiglstraße</name>
+        <geopos lat="48.146157901143255" lng="11.539763575013392" url="https://www.google.com/maps/?q=48.146157901143255+11.539763575013392"></geopos>
+        <address>
+            <street>Weiglstraße</street>
+            <number>15a</number>
+            <zip>80636</zip>
+            <city id="c90">München</city>
+            <district>Neuhausen</district>
+        </address>
+    </station>
+    <station id="s408557" cityref="c90">
+        <name>Jutastraße</name>
+        <geopos lat="48.15341198331777" lng="11.537877134999075" url="https://www.google.com/maps/?q=48.15341198331777+11.537877134999075"></geopos>
+        <address>
+            <street>Jutastraße </street>
+            <number>29</number>
+            <zip>80636</zip>
+            <city id="c90">München</city>
+            <district>Neuhausen</district>
+        </address>
+    </station>
+    <station id="s408560" cityref="c90">
+        <name>Winterthurer Straße</name>
+        <geopos lat="48.09613496977025" lng="11.496238522251883" url="https://www.google.com/maps/?q=48.09613496977025+11.496238522251883"></geopos>
+        <address>
+            <street>Winterthurer Straße</street>
+            <number>8</number>
+            <zip>81476</zip>
+            <city id="c90">München</city>
+            <district>Fürstenried</district>
+        </address>
+    </station>
+    <station id="s408561" cityref="c90">
+        <name>Jörg-Hube-Straße 103</name>
+        <geopos lat="48.16060755225334" lng="11.634366930299262" url="https://www.google.com/maps/?q=48.16060755225334+11.634366930299262"></geopos>
+        <address>
+            <street>Jörg-Hube-Straße</street>
+            <number>103</number>
+            <zip>81927</zip>
+            <city id="c90">München</city>
+            <district>Prinz-Eugen-Park</district>
+        </address>
+    </station>
+    <station id="s403097" cityref="c52">
+        <name>Sandstraße</name>
+        <geopos lat="49.44516911234034" lng="11.072245985269547" url="https://www.google.com/maps/?q=49.44516911234034+11.072245985269547"></geopos>
+        <address>
+            <street>Sandstraße</street>
+            <number>26</number>
+            <zip>90443</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Tafelhof</district>
+        </address>
+    </station>
+    <station id="s403099" cityref="c52">
+        <name>Lange Gasse</name>
+        <geopos lat="49.458785445177334" lng="11.082656226664994" url="https://www.google.com/maps/?q=49.458785445177334+11.082656226664994"></geopos>
+        <address>
+            <street>Lange Gasse</street>
+            <number>9</number>
+            <zip>90403</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Sebald</district>
+        </address>
+    </station>
+    <station id="s403100" cityref="c52">
+        <name>Hummelsteiner Weg</name>
+        <geopos lat="49.43759575461445" lng="11.087201312184334" url="https://www.google.com/maps/?q=49.43759575461445+11.087201312184334"></geopos>
+        <address>
+            <street>Hummelsteiner Weg</street>
+            <number>89</number>
+            <zip>90459</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Steinbühl</district>
+        </address>
+    </station>
+    <station id="s403103" cityref="c52">
+        <name>Nürbanum</name>
+        <geopos lat="49.4321918814938" lng="11.096530705690384" url="https://www.google.com/maps/?q=49.4321918814938+11.096530705690384"></geopos>
+        <address>
+            <street>Allersbergerstraße</street>
+            <number>185</number>
+            <zip>90461</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Lichtenhof</district>
+        </address>
+    </station>
+    <station id="s403202" cityref="c52">
+        <name>Ajtoschstraße</name>
+        <geopos lat="49.433927626674134" lng="11.083635978066354" url="https://www.google.com/maps/?q=49.433927626674134+11.083635978066354"></geopos>
+        <address>
+            <street>Ajtoschstraße</street>
+            <number>6</number>
+            <zip>90459</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Galgenhof</district>
+        </address>
+    </station>
+    <station id="s403215" cityref="c52">
+        <name>Wilhelminenstraße</name>
+        <geopos lat="49.4395422270844" lng="11.092426161636467" url="https://www.google.com/maps/?q=49.4395422270844+11.092426161636467"></geopos>
+        <address>
+            <street>Wilhelminenstraße</street>
+            <number>16</number>
+            <zip>90461</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Bleiweiß</district>
+        </address>
+    </station>
+    <station id="s404476" cityref="c52">
+        <name>Fleischmannstraße 24</name>
+        <geopos lat="49.4640947551515" lng="11.055080196993686" url="https://www.google.com/maps/?q=49.4640947551515+11.055080196993686"></geopos>
+        <address>
+            <street>Fleischmannstraße</street>
+            <number>24</number>
+            <zip>90419</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Johannis</district>
+        </address>
+    </station>
+    <station id="s404667" cityref="c52">
+        <name>N-PLärrer</name>
+        <geopos lat="49.44895974763506" lng="11.060575779901114" url="https://www.google.com/maps/?q=49.44895974763506+11.060575779901114"></geopos>
+        <address>
+            <street>Imhoffstraße</street>
+            <number>2</number>
+            <zip>90429</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gostenhof</district>
+        </address>
+    </station>
+    <station id="s405009" cityref="c52">
+        <name>Georg-Strobel-Straße</name>
+        <geopos lat="49.45649184275273" lng="11.099133208930198" url="https://www.google.com/maps/?q=49.45649184275273+11.099133208930198"></geopos>
+        <address>
+            <street>Georg-Strobel-Straße</street>
+            <number>58</number>
+            <zip>90489</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Wöhrd</district>
+        </address>
+    </station>
+    <station id="s405208" cityref="c52">
+        <name>Münzgasse</name>
+        <geopos lat="49.45604047953965" lng="11.085927760982486" url="https://www.google.com/maps/?q=49.45604047953965+11.085927760982486"></geopos>
+        <address>
+            <street>Münzgasse</street>
+            <number>20</number>
+            <zip>90403</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s405429" cityref="c52">
+        <name>Neumarkterstraße</name>
+        <geopos lat="49.44416882423247" lng="11.108537079491043" url="https://www.google.com/maps/?q=49.44416882423247+11.108537079491043"></geopos>
+        <address>
+            <street>Neumarkterstraße</street>
+            <number>2</number>
+            <zip>90478</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gleißhammer</district>
+        </address>
+    </station>
+    <station id="s405531" cityref="c52">
+        <name>Stadtmission</name>
+        <geopos lat="49.46053590269377" lng="11.075643757676971" url="https://www.google.com/maps/?q=49.46053590269377+11.075643757676971"></geopos>
+        <address>
+            <street>Pirckheimerstraße</street>
+            <number>16a</number>
+            <zip>90408</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Pirckheimerstrasse</district>
+        </address>
+    </station>
+    <station id="s405571" cityref="c52">
+        <name>Fürther Straße/MuzClub</name>
+        <geopos lat="49.45077719678514" lng="11.055115884923907" url="https://www.google.com/maps/?q=49.45077719678514+11.055115884923907"></geopos>
+        <address>
+            <street>Fürther Straße</street>
+            <number>65</number>
+            <zip>90429</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gostenhof</district>
+        </address>
+    </station>
+    <station id="s405758" cityref="c52">
+        <name>Bahnhof Ost</name>
+        <geopos lat="49.464190417573455" lng="11.119891573749555" url="https://www.google.com/maps/?q=49.464190417573455+11.119891573749555"></geopos>
+        <address>
+            <street>Äußere Sulzbacherstraße</street>
+            <number>124</number>
+            <zip>90491</zip>
+            <city id="c52">Nürnberg</city>
+            <district>St. Jobst</district>
+        </address>
+    </station>
+    <station id="s405794" cityref="c52">
+        <name>IHK Nürnberg</name>
+        <geopos lat="49.428985693980096" lng="11.07365371418291" url="https://www.google.com/maps/?q=49.428985693980096+11.07365371418291"></geopos>
+        <address>
+            <street>Ulmenstraße</street>
+            <number>52</number>
+            <zip>90443</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gibitzenhof</district>
+        </address>
+    </station>
+    <station id="s405818" cityref="c52">
+        <name>Tafelfeldstraße</name>
+        <geopos lat="49.44217616376918" lng="11.076174505706035" url="https://www.google.com/maps/?q=49.44217616376918+11.076174505706035"></geopos>
+        <address>
+            <street>Tafelfeldstraße</street>
+            <number>23-25</number>
+            <zip>90443</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Steinbühl</district>
+        </address>
+    </station>
+    <station id="s406076" cityref="c52">
+        <name>Prinzregentenufer - mobilpunkt</name>
+        <geopos lat="49.45288362212497" lng="11.087609506034823" url="https://www.google.com/maps/?q=49.45288362212497+11.087609506034823"></geopos>
+        <address>
+            <street>Prinzregentenufer</street>
+            <number>5</number>
+            <zip>90489</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Whörd</district>
+        </address>
+    </station>
+    <station id="s406077" cityref="c52">
+        <name>Ludwig-Feuerbach-Straße - mobilpunkt</name>
+        <geopos lat="49.46069370708984" lng="11.092514136245768" url="https://www.google.com/maps/?q=49.46069370708984+11.092514136245768"></geopos>
+        <address>
+            <street>Ludwig-Feuerbach-Straße</street>
+            <number>2</number>
+            <zip>90489</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Wöhrd</district>
+        </address>
+    </station>
+    <station id="s406078" cityref="c52">
+        <name>Am Messehaus - mobilpunkt</name>
+        <geopos lat="49.46432911192715" lng="11.100229341104523" url="https://www.google.com/maps/?q=49.46432911192715+11.100229341104523"></geopos>
+        <address>
+            <street>Am Messehaus</street>
+            <number>17</number>
+            <zip>90489</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Wöhrd</district>
+        </address>
+    </station>
+    <station id="s406079" cityref="c52">
+        <name>Schweppermannstraße - mobilpunkt</name>
+        <geopos lat="49.46333736169371" lng="11.07859494841" url="https://www.google.com/maps/?q=49.46333736169371+11.07859494841"></geopos>
+        <address>
+            <street>Schweppermannstraße</street>
+            <number>55</number>
+            <zip>90408</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Uhlandstraße</district>
+        </address>
+    </station>
+    <station id="s406080" cityref="c52">
+        <name>Archivstraße - mobilpunkt</name>
+        <geopos lat="49.462410317484554" lng="11.072322679727563" url="https://www.google.com/maps/?q=49.462410317484554+11.072322679727563"></geopos>
+        <address>
+            <street>Archivstraße</street>
+            <number>5</number>
+            <zip>90408</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gärten hinter der Veste</district>
+        </address>
+    </station>
+    <station id="s406082" cityref="c52">
+        <name>Kopernikusplatz - mobilpunkt</name>
+        <geopos lat="49.43898217492712" lng="11.081498342128043" url="https://www.google.com/maps/?q=49.43898217492712+11.081498342128043"></geopos>
+        <address>
+            <street>Kopernikusplatz</street>
+            <number>13</number>
+            <zip>90459</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Steinbühl</district>
+        </address>
+    </station>
+    <station id="s406083" cityref="c52">
+        <name>Nelson-Mandela-Platz HBF - mobilpunkt</name>
+        <geopos lat="49.44406589949653" lng="11.081988907899813" url="https://www.google.com/maps/?q=49.44406589949653+11.081988907899813"></geopos>
+        <address>
+            <street>Nelson-Mandela-Platz</street>
+            <number>20</number>
+            <zip>60459</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Steinbühl</district>
+        </address>
+    </station>
+    <station id="s406150" cityref="c52">
+        <name>Adam-Kraft-Straße</name>
+        <geopos lat="49.45973794213923" lng="11.062106673610742" url="https://www.google.com/maps/?q=49.45973794213923+11.062106673610742"></geopos>
+        <address>
+            <street>Adam-Kraft-Straße</street>
+            <number>64</number>
+            <zip>90419</zip>
+            <city id="c52">Nürnberg</city>
+            <district>St. Johannis</district>
+        </address>
+    </station>
+    <station id="s407795" cityref="c52">
+        <name>Hauptbahnhof Westausgang - mobilpunkt</name>
+        <geopos lat="49.44580215894409" lng="11.080250273645333" url="https://www.google.com/maps/?q=49.44580215894409+11.080250273645333"></geopos>
+        <address>
+            <street>Eilgutstraße</street>
+            <number>2</number>
+            <zip>90443</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s408243" cityref="c52">
+        <name>Gustav-Adolf-Straße  - mobilpunkt</name>
+        <geopos lat="49.43960348785196" lng="11.037514452398796" url="https://www.google.com/maps/?q=49.43960348785196+11.037514452398796"></geopos>
+        <address>
+            <street>Wallensteinstraße</street>
+            <number>22</number>
+            <zip>90439</zip>
+            <city id="c52">Nürnberg</city>
+            <district>St. Leonhard</district>
+        </address>
+    </station>
+    <station id="s408244" cityref="c52">
+        <name>Langwasser Mitte - mobilpunkt</name>
+        <geopos lat="49.40478059087933" lng="11.13190889197972" url="https://www.google.com/maps/?q=49.40478059087933+11.13190889197972"></geopos>
+        <address>
+            <street>Breslauer Straße</street>
+            <number>300</number>
+            <zip>90471</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Langwasser</district>
+        </address>
+    </station>
+    <station id="s408245" cityref="c52">
+        <name>Mögeldorf - mobilpunkt</name>
+        <geopos lat="49.45943941635618" lng="11.133275728446506" url="https://www.google.com/maps/?q=49.45943941635618+11.133275728446506"></geopos>
+        <address>
+            <street>Freiligrathstraße</street>
+            <number>5A</number>
+            <zip>90482</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Mögeldorf</district>
+        </address>
+    </station>
+    <station id="s408246" cityref="c52">
+        <name>Leipziger Platz - mobilpunkt</name>
+        <geopos lat="49.47161660307511" lng="11.103949877618447" url="https://www.google.com/maps/?q=49.47161660307511+11.103949877618447"></geopos>
+        <address>
+            <street>Leipziger Platz</street>
+            <number>5</number>
+            <zip>90491</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Schoppershof</district>
+        </address>
+    </station>
+    <station id="s408247" cityref="c52">
+        <name>Forchheimer Straße - mobilpunkt</name>
+        <geopos lat="49.47346925865082" lng="11.062528169536563" url="https://www.google.com/maps/?q=49.47346925865082+11.062528169536563"></geopos>
+        <address>
+            <street>Forchheimer Straße</street>
+            <number>8</number>
+            <zip>90425</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Thon</district>
+        </address>
+    </station>
+    <station id="s408248" cityref="c52">
+        <name>Zabo Mitte - mobilpunkt</name>
+        <geopos lat="49.44388125635063" lng="11.124408915748859" url="https://www.google.com/maps/?q=49.44388125635063+11.124408915748859"></geopos>
+        <address>
+            <street>Kachletstraße</street>
+            <number>6</number>
+            <zip>90480</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Zerzabelshof</district>
+        </address>
+    </station>
+    <station id="s408249" cityref="c52">
+        <name>Äußerer Laufer Platz - mobilpunkt</name>
+        <geopos lat="49.45754903690454" lng="11.08771233370453" url="https://www.google.com/maps/?q=49.45754903690454+11.08771233370453"></geopos>
+        <address>
+            <street>Äußerer Laufer Platz</street>
+            <number>25</number>
+            <zip>90403</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s408250" cityref="c52">
+        <name>Karl-Grillenberger-Straße - mobilpunkt</name>
+        <geopos lat="49.45127865266249" lng="11.0694548792967" url="https://www.google.com/maps/?q=49.45127865266249+11.0694548792967"></geopos>
+        <address>
+            <street>Karl-Grillenberger-Straße</street>
+            <number>38</number>
+            <zip>90402</zip>
+            <city id="c52">Nürnberg</city>
+            <district>St. Lorenz</district>
+        </address>
+    </station>
+    <station id="s408261" cityref="c52">
+        <name>Stresemannplatz - mobilpunkt</name>
+        <geopos lat="49.45854753639221" lng="11.097353075382898" url="https://www.google.com/maps/?q=49.45854753639221+11.097353075382898"></geopos>
+        <address>
+            <street>Bauvereinstraße</street>
+            <number>46</number>
+            <zip>90489</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Wöhrd</district>
+        </address>
+    </station>
+    <station id="s408262" cityref="c52">
+        <name>Schillerplatz - mobilpunkt</name>
+        <geopos lat="49.46455120811979" lng="11.08651382365224" url="https://www.google.com/maps/?q=49.46455120811979+11.08651382365224"></geopos>
+        <address>
+            <street>Schillerplatz</street>
+            <number>2</number>
+            <zip>90409</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Maxfeld</district>
+        </address>
+    </station>
+    <station id="s408263" cityref="c52">
+        <name>Bielingplatz - mobilpunkt</name>
+        <geopos lat="49.463823002314385" lng="11.066638379883443" url="https://www.google.com/maps/?q=49.463823002314385+11.066638379883443"></geopos>
+        <address>
+            <street>Bielingplatz</street>
+            <number>53</number>
+            <zip>90419</zip>
+            <city id="c52">Nürnberg</city>
+            <district>St. Johannis</district>
+        </address>
+    </station>
+    <station id="s408264" cityref="c52">
+        <name>Poppenreuther Straße - mobilpunkt</name>
+        <geopos lat="49.460094889379945" lng="11.059650829815837" url="https://www.google.com/maps/?q=49.460094889379945+11.059650829815837"></geopos>
+        <address>
+            <street>Poppenreuther Straße</street>
+            <number>3</number>
+            <zip>90419</zip>
+            <city id="c52">Nürnberg</city>
+            <district>St.  Johannis</district>
+        </address>
+    </station>
+    <station id="s408265" cityref="c52">
+        <name>Imhoffstraße - mobilpunkt</name>
+        <geopos lat="49.4493361298054" lng="11.059844021337199" url="https://www.google.com/maps/?q=49.4493361298054+11.059844021337199"></geopos>
+        <address>
+            <street>Imhoffstraße</street>
+            <number>2</number>
+            <zip>90429</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gostenhof</district>
+        </address>
+    </station>
+    <station id="s408266" cityref="c52">
+        <name>Maximilianstraße - mobilpunkt</name>
+        <geopos lat="49.45582761040492" lng="11.040158394751302" url="https://www.google.com/maps/?q=49.45582761040492+11.040158394751302"></geopos>
+        <address>
+            <street>Fürther Straße</street>
+            <number>155</number>
+            <zip>90429</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gostenhof</district>
+        </address>
+    </station>
+    <station id="s408267" cityref="c52">
+        <name>Südstadtbad - mobilpunkt</name>
+        <geopos lat="49.438074590412675" lng="11.090489968314728" url="https://www.google.com/maps/?q=49.438074590412675+11.090489968314728"></geopos>
+        <address>
+            <street>Allersbergerstraße</street>
+            <number>111</number>
+            <zip>90461</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Glockenhof</district>
+        </address>
+    </station>
+    <station id="s408268" cityref="c52">
+        <name>Röthenbach - mobilpunkt</name>
+        <geopos lat="49.42167645266264" lng="11.032781507556365" url="https://www.google.com/maps/?q=49.42167645266264+11.032781507556365"></geopos>
+        <address>
+            <street>Insinger Straße</street>
+            <number>1</number>
+            <zip>90449</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Röthenbach</district>
+        </address>
+    </station>
+    <station id="s408269" cityref="c52">
+        <name>Planetarium - mobilpunkt</name>
+        <geopos lat="49.448044037568536" lng="11.063199121553453" url="https://www.google.com/maps/?q=49.448044037568536+11.063199121553453"></geopos>
+        <address>
+            <street>Rothenburger Straße</street>
+            <number>2</number>
+            <zip>90443</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Gostenhof</district>
+        </address>
+    </station>
+    <station id="s408270" cityref="c52">
+        <name>Theresienstraße - mobilpunkt</name>
+        <geopos lat="49.45565425210544" lng="11.07796890957286" url="https://www.google.com/maps/?q=49.45565425210544+11.07796890957286"></geopos>
+        <address>
+            <street>Theresienstraße</street>
+            <number>2</number>
+            <zip>90403</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s408271" cityref="c52">
+        <name>Wendeschleife Westfriedhof - mobilpunkt</name>
+        <geopos lat="49.46135610872033" lng="11.050012288074868" url="https://www.google.com/maps/?q=49.46135610872033+11.050012288074868"></geopos>
+        <address>
+            <street>Johannisstraße</street>
+            <number>167</number>
+            <zip>90419</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Johannis</district>
+        </address>
+    </station>
+    <station id="s408272" cityref="c52">
+        <name>Schweinau - mobilpunkt</name>
+        <geopos lat="49.43392191565232" lng="11.048146164798709" url="https://www.google.com/maps/?q=49.43392191565232+11.048146164798709"></geopos>
+        <address>
+            <street>Schweinauer Hauptstraße</street>
+            <number>29</number>
+            <zip>90441</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Schweinau</district>
+        </address>
+    </station>
+    <station id="s408278" cityref="c52">
+        <name>Neubleiche - mobilpunkt</name>
+        <geopos lat="49.44683117871164" lng="11.097969805330195" url="https://www.google.com/maps/?q=49.44683117871164+11.097969805330195"></geopos>
+        <address>
+            <street>Neubleiche</street>
+            <number>1</number>
+            <zip>90478</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Dürrenhof</district>
+        </address>
+    </station>
+    <station id="s408307" cityref="c52">
+        <name>Maxplatz - mobilpunkt</name>
+        <geopos lat="49.45421748561356" lng="11.07348379594805" url="https://www.google.com/maps/?q=49.45421748561356+11.07348379594805"></geopos>
+        <address>
+            <street>Maxplatz</street>
+            <number>20</number>
+            <zip>90403</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s408408" cityref="c52">
+        <name>Rosental</name>
+        <geopos lat="49.45467624793769" lng="11.085973124262182" url="https://www.google.com/maps/?q=49.45467624793769+11.085973124262182"></geopos>
+        <address>
+            <street>Rosental</street>
+            <number>32</number>
+            <zip>90403</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s408409" cityref="c52">
+        <name>Rahm</name>
+        <geopos lat="49.454865474535175" lng="11.09583047666547" url="https://www.google.com/maps/?q=49.454865474535175+11.09583047666547"></geopos>
+        <address>
+            <street>Rahm</street>
+            <number>26</number>
+            <zip>90489</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Wöhrd</district>
+        </address>
+    </station>
+    <station id="s408488" cityref="c52">
+        <name>Auf AEG</name>
+        <geopos lat="49.4594125749312" lng="11.030716745146378" url="https://www.google.com/maps/?q=49.4594125749312+11.030716745146378"></geopos>
+        <address>
+            <street>Fürther Straße</street>
+            <number>244</number>
+            <zip>90429</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Eberhardshof</district>
+        </address>
+    </station>
+    <station id="s408599" cityref="c52">
+        <name>Rollnerstraße</name>
+        <geopos lat="49.468625666835614" lng="11.080573148359537" url="https://www.google.com/maps/?q=49.468625666835614+11.080573148359537"></geopos>
+        <address>
+            <street>Rollnerstraße </street>
+            <number>111</number>
+            <zip>90408</zip>
+            <city id="c52">Nürnberg</city>
+            <district>Uhlandstraße</district>
+        </address>
+    </station>
+    <station id="s400272" cityref="c100012">
+        <name>Hauptbahnhof</name>
+        <geopos lat="49.80095767372481" lng="9.938144981861115" url="https://www.google.com/maps/?q=49.80095767372481+9.938144981861115"></geopos>
+        <address>
+            <street>Bahnhofsplatz</street>
+            <number>4</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Innenstadt</district>
+        </address>
+    </station>
+    <station id="s403203" cityref="c100012">
+        <name>Michelstraße/Brunostraße</name>
+        <geopos lat="49.793678844389916" lng="9.90632027687343" url="https://www.google.com/maps/?q=49.793678844389916+9.90632027687343"></geopos>
+        <address>
+            <street>Michelstraße</street>
+            <number>1</number>
+            <zip>97082</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Zellerau</district>
+        </address>
+    </station>
+    <station id="s403238" cityref="c100012">
+        <name>Ulrichstraße/Bf Süd</name>
+        <geopos lat="49.78814654375814" lng="9.946651115508189" url="https://www.google.com/maps/?q=49.78814654375814+9.946651115508189"></geopos>
+        <address>
+            <street>Ulrichstraße</street>
+            <number>6</number>
+            <zip>97074</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Frauenland</district>
+        </address>
+    </station>
+    <station id="s403257" cityref="c100012">
+        <name>Rückertstraße</name>
+        <geopos lat="49.78001752287011" lng="9.931988604763092" url="https://www.google.com/maps/?q=49.78001752287011+9.931988604763092"></geopos>
+        <address>
+            <street>Rückertstraße</street>
+            <number>3b</number>
+            <zip>97072</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Sanderau</district>
+        </address>
+    </station>
+    <station id="s404587" cityref="c100012">
+        <name>Veitshöchheimer Straße</name>
+        <geopos lat="49.801194115852795" lng="9.923769189479799" url="https://www.google.com/maps/?q=49.801194115852795+9.923769189479799"></geopos>
+        <address>
+            <street>Veitshöchheimer Straße</street>
+            <number>8</number>
+            <zip>97080</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Äuß.Pleich</district>
+        </address>
+    </station>
+    <station id="s404792" cityref="c100012">
+        <name>Oskar-Laredo-Platz</name>
+        <geopos lat="49.80097019226606" lng="9.92353320779739" url="https://www.google.com/maps/?q=49.80097019226606+9.92353320779739"></geopos>
+        <address>
+            <street>Oskar-Laredo-Platz</street>
+            <number>1</number>
+            <zip>97080</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Äuß.Pleich</district>
+        </address>
+    </station>
+    <station id="s405069" cityref="c100012">
+        <name>Zweiter Siedlungsweg</name>
+        <geopos lat="49.79545160725273" lng="9.902047376651808" url="https://www.google.com/maps/?q=49.79545160725273+9.902047376651808"></geopos>
+        <address>
+            <street>Zweiter Siedlungsweg</street>
+            <number>11</number>
+            <zip>97082</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Zellerau</district>
+        </address>
+    </station>
+    <station id="s405632" cityref="c100012">
+        <name>Ulmer Hof - Mobilstation</name>
+        <geopos lat="49.796756648074584" lng="9.9290806862914" url="https://www.google.com/maps/?q=49.796756648074584+9.9290806862914"></geopos>
+        <address>
+            <street>Juliuspromenade</street>
+            <number>36</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Innere Pleich</district>
+        </address>
+    </station>
+    <station id="s405633" cityref="c100012">
+        <name>Wagnerplatz - Mobilstation</name>
+        <geopos lat="49.80215181957755" lng="9.944745951943332" url="https://www.google.com/maps/?q=49.80215181957755+9.944745951943332"></geopos>
+        <address>
+            <street>Wagnerplatz</street>
+            <number>5</number>
+            <zip>97080</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Grombühl</district>
+        </address>
+    </station>
+    <station id="s405634" cityref="c100012">
+        <name>Arndtstraße - Mobilstation</name>
+        <geopos lat="49.77957025435095" lng="9.934907985152677" url="https://www.google.com/maps/?q=49.77957025435095+9.934907985152677"></geopos>
+        <address>
+            <street>Platenstraße</street>
+            <number>12</number>
+            <zip>97072</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Sanderau</district>
+        </address>
+    </station>
+    <station id="s405635" cityref="c100012">
+        <name>Pestalozzistraße - Mobilstation</name>
+        <geopos lat="49.80256682757445" lng="9.951834976673126" url="https://www.google.com/maps/?q=49.80256682757445+9.951834976673126"></geopos>
+        <address>
+            <street>Pestalozzistraße</street>
+            <number>3</number>
+            <zip>97080</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Grombühl</district>
+        </address>
+    </station>
+    <station id="s405636" cityref="c100012">
+        <name>Neubaustraße - Mobilstation</name>
+        <geopos lat="49.790833667651775" lng="9.92850003254091" url="https://www.google.com/maps/?q=49.790833667651775+9.92850003254091"></geopos>
+        <address>
+            <street>Gotengasse</street>
+            <number>4</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s405637" cityref="c100012">
+        <name>Sanderring - Mobilstation</name>
+        <geopos lat="49.785544488089975" lng="9.932424259604886" url="https://www.google.com/maps/?q=49.785544488089975+9.932424259604886"></geopos>
+        <address>
+            <street>Virchowstraße</street>
+            <number>1</number>
+            <zip>97072</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Sanderau</district>
+        </address>
+    </station>
+    <station id="s405638" cityref="c100012">
+        <name>Haugerkirchplatz - Mobilstation</name>
+        <geopos lat="49.79770619052787" lng="9.93559220026259" url="https://www.google.com/maps/?q=49.79770619052787+9.93559220026259"></geopos>
+        <address>
+            <street>Haugerpfarrgasse</street>
+            <number>14</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s405639" cityref="c100012">
+        <name>Rathaus - Mobilstation</name>
+        <geopos lat="49.79262433854241" lng="9.928189013509154" url="https://www.google.com/maps/?q=49.79262433854241+9.928189013509154"></geopos>
+        <address>
+            <street>Glockengasse</street>
+            <number>13</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s405640" cityref="c100012">
+        <name>Hartmannstraße - Mobilstation</name>
+        <geopos lat="49.79507438044181" lng="9.91186244529672" url="https://www.google.com/maps/?q=49.79507438044181+9.91186244529672"></geopos>
+        <address>
+            <street>Sedanstraße</street>
+            <number>4</number>
+            <zip>97082</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Zellerau</district>
+        </address>
+    </station>
+    <station id="s406177" cityref="c100012">
+        <name>Marktgarage</name>
+        <geopos lat="49.79410852495528" lng="9.92767493376266" url="https://www.google.com/maps/?q=49.79410852495528+9.92767493376266"></geopos>
+        <address>
+            <street>Karmelitenstraße</street>
+            <number>17</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Mitte</district>
+        </address>
+    </station>
+    <station id="s406324" cityref="c100012">
+        <name>Technologie- und Gründerzentrum - Mobilstation</name>
+        <geopos lat="49.78679844902823" lng="9.967631507357623" url="https://www.google.com/maps/?q=49.78679844902823+9.967631507357623"></geopos>
+        <address>
+            <street>Magdalene-Schoch-Straße</street>
+            <number>5</number>
+            <zip>97074</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Hubland</district>
+        </address>
+    </station>
+    <station id="s406561" cityref="c100012">
+        <name>Alte Fernstraße - Mobilstation</name>
+        <geopos lat="49.790673323268955" lng="9.972394108772278" url="https://www.google.com/maps/?q=49.790673323268955+9.972394108772278"></geopos>
+        <address>
+            <street>Alte Fernstraße</street>
+            <number>2</number>
+            <zip>97074</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Hubland</district>
+        </address>
+    </station>
+    <station id="s406697" cityref="c100012">
+        <name>Rottendorfer Tor - Mobilstation</name>
+        <geopos lat="49.790948" lng="9.964284" url="https://www.google.com/maps/?q=49.790948+9.964284"></geopos>
+        <address>
+            <street>Rottendorfer Straße</street>
+            <number>59</number>
+            <zip>97074</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Hubland</district>
+        </address>
+    </station>
+    <station id="s406723" cityref="c100012">
+        <name>Heuchelhofstraße - Mobilstation</name>
+        <geopos lat="49.74672515368698" lng="9.957772046327591" url="https://www.google.com/maps/?q=49.74672515368698+9.957772046327591"></geopos>
+        <address>
+            <street>Heuchelhofstraße</street>
+            <number>null</number>
+            <zip>97084</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Heuchelhof</district>
+        </address>
+    </station>
+    <station id="s408023" cityref="c100012">
+        <name>Zeller Straße - Mobilstation</name>
+        <geopos lat="49.79304680807433" lng="9.924285256448684" url="https://www.google.com/maps/?q=49.79304680807433+9.924285256448684"></geopos>
+        <address>
+            <street>Zeller Straße</street>
+            <number>3</number>
+            <zip>97082</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Mainviertel</district>
+        </address>
+    </station>
+    <station id="s408177" cityref="c100012">
+        <name>Franz-Ludwig-Straße</name>
+        <geopos lat="49.78360663276467" lng="9.939023735270325" url="https://www.google.com/maps/?q=49.78360663276467+9.939023735270325"></geopos>
+        <address>
+            <street>Franz-Ludwig-Straße</street>
+            <number>14</number>
+            <zip>97074</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Sanderau</district>
+        </address>
+    </station>
+    <station id="s408348" cityref="c100012">
+        <name>Annastraße - Mobilstation</name>
+        <geopos lat="49.79150248052282" lng="9.946707888932337" url="https://www.google.com/maps/?q=49.79150248052282+9.946707888932337"></geopos>
+        <address>
+            <street>St.-Benediktstraße</street>
+            <number>18</number>
+            <zip>97072</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s408349" cityref="c100012">
+        <name>Reuterstraße - Mobilstation</name>
+        <geopos lat="49.765944232712975" lng="9.947509047100539" url="https://www.google.com/maps/?q=49.765944232712975+9.947509047100539"></geopos>
+        <address>
+            <street>Am Nikolaustor</street>
+            <number>8</number>
+            <zip>97084</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Heidingsfeld</district>
+        </address>
+    </station>
+    <station id="s408350" cityref="c100012">
+        <name>Wittelsbacher Platz - Mobilstation</name>
+        <geopos lat="49.78705659217966" lng="9.950913188715163" url="https://www.google.com/maps/?q=49.78705659217966+9.950913188715163"></geopos>
+        <address>
+            <street>Wittelsbacherplatz</street>
+            <number>3</number>
+            <zip>97074</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Altstadt</district>
+        </address>
+    </station>
+    <station id="s408355" cityref="c100012">
+        <name>Ehehaltenhaus - Mobilstation</name>
+        <geopos lat="49.781480394816455" lng="9.935186116548152" url="https://www.google.com/maps/?q=49.781480394816455+9.935186116548152"></geopos>
+        <address>
+            <street>Friedrich-Spee-Straße</street>
+            <number>2</number>
+            <zip>97072</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Sanderau</district>
+        </address>
+    </station>
+    <station id="s408356" cityref="c100012">
+        <name>Haus des Bürgers - Mobilstation</name>
+        <geopos lat="49.81997045979932" lng="9.96465408062818" url="https://www.google.com/maps/?q=49.81997045979932+9.96465408062818"></geopos>
+        <address>
+            <street>Erwin-Wolf-Platz</street>
+            <number>1</number>
+            <zip>97078</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Versbach</district>
+        </address>
+    </station>
+    <station id="s408358" cityref="c100012">
+        <name>Ökumenisches Zentrum - Mobilstation</name>
+        <geopos lat="49.81055824267314" lng="9.985872788022448" url="https://www.google.com/maps/?q=49.81055824267314+9.985872788022448"></geopos>
+        <address>
+            <street>Herrnhofstraße</street>
+            <number>14</number>
+            <zip>97076</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Lengfeld</district>
+        </address>
+    </station>
+    <station id="s408485" cityref="c100012">
+        <name>FCS Hbf Würzburg</name>
+        <geopos lat="49.80116547423913" lng="9.937440581764942" url="https://www.google.com/maps/?q=49.80116547423913+9.937440581764942"></geopos>
+        <address>
+            <street>Bahnhofplatz</street>
+            <number>null</number>
+            <zip>97070</zip>
+            <city id="c100012">Würzburg</city>
+            <district></district>
+        </address>
+    </station>
+    <station id="s408486" cityref="c100012">
+        <name>FCS Schwarzenberg Würzburg</name>
+        <geopos lat="49.8101351" lng="9.9599632" url="https://www.google.com/maps/?q=49.8101351+9.9599632"></geopos>
+        <address>
+            <street>Am Schwarzenberg</street>
+            <number>13</number>
+            <zip>97078</zip>
+            <city id="c100012">Würzburg</city>
+            <district></district>
+        </address>
+    </station>
+    <station id="s408538" cityref="c100012">
+        <name>FCS Randersackerer Straße</name>
+        <geopos lat="49.7791902" lng="9.9380834" url="https://www.google.com/maps/?q=49.7791902+9.9380834"></geopos>
+        <address>
+            <street>Randersackerer Straße </street>
+            <number>25</number>
+            <zip>97072</zip>
+            <city id="c100012">Würzburg</city>
+            <district>Sanderau</district>
+        </address>
+    </station>
+</stationen>
+</standorte>

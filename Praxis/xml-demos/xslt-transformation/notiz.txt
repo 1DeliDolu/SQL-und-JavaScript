@@ -1,0 +1,5 @@
+Diskussion um das Erzeugen von HTML mit XSLT
+
+https://stackoverflow.com/questions/3387127/set-html5-doctype-with-xslt
+https://efxa.org/2013/06/03/how-to-transform-an-xml-document-into-html5-using-xslt/
+https://www.w3.org/html/wg/tracker/issues/54

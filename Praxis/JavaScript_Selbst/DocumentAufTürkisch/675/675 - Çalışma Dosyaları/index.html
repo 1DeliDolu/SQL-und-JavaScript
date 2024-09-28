@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Bildung</title>
+</head>
+
+<body>
+<div style="text-align:right;"><select onchange="beispiel(this.value)">
+	<option value=""></option>
+	<option value="1">Mustafa Özdemir</option>
+	<option value="2">Dimitri Ben</option>
+	<option value="3">Sergej Ben</option>
+	<option value="4">Tim Failing</option>
+</select></div>
+<br /><br />
+<div id="ergebnis"></div>
+
+<script type="text/javascript" language="javascript">
+function beispiel(empfangenerWert){
+	var anfrage = new XMLHttpRequest();
+	anfrage.onreadystatechange = function(){
+		if(this.readyState == 4 && this.status == 200){
+			document.getElementById("ergebnis").innerHTML = this.responseText;
+		}else{
+			document.getElementById("ergebnis").innerHTML = "Ein unbekannter Fehler ist aufgetreten!";
+		}
+	};
+	anfrage.open("GET", "kaynak.php?wert=" + empfangenerWert, true);
+	anfrage.send();
+}
+</script>
+</body>
+</html>

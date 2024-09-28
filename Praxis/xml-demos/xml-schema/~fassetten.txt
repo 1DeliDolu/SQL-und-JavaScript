@@ -1,0 +1,17 @@
+Fassetten
+
+xs:string
+  xs:minLength
+  xs:maxLength
+  xs:pattern
+  
+xs:integer
+  xs:minInclusive 
+  xs:minExclusive 
+  xs:maxInclusive 
+  xs:maxExclusive
+
+xs:decimal
+  wie xs:integer, zusätzlich:
+  xs:totalDigits
+  xs:fractionDigits

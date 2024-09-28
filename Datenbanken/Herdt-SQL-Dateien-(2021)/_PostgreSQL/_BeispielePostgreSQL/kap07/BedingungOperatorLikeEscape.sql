@@ -1,0 +1,1 @@
+SELECT * FROM t_abt WHERE abteilung LIKE 'Abt\_%' ESCAPE '\';  

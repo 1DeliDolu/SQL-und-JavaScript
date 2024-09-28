@@ -1,0 +1,28 @@
+- title: README
+  file: /README
+- title: Installation
+  file: /vorbereitung
+- title: Dateiformate in Big Data
+  file: /dateiformate-big-data  
+- title: DataFrame aus diversen Dateiformaten lesen
+  file: /file_to_dataframe
+- title: DataFrame in diverse Dateiformate schreiben
+  file: /dataframe_to_file  
+- title: Bevölkerungszahlen
+  file: /population
+- title: Studenten
+  file: /studenten
+- title: CD-Catalog Database
+  file: /cd-catalog-db
+- title: SQL Server Abfragen
+  file: /sql  
+- title: JSON Verarbeiten
+  file: /json
+- title: XML Verarbeiten
+  file: /xml
+- title: JSON to CSV Conversion
+  file: /json_to_csv
+ 
+
+
+

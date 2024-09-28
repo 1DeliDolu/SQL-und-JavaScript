@@ -1,0 +1,82 @@
+/* Globale Einstellungen */
+html {
+  font-size: 100%; /* Vorbereitung für die Rem-Einheit */
+}
+
+/* Body-Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategray;
+  background-color: antiquewhite;
+  /* Weitere Body-Stile nach Bedarf anpassen */
+}
+
+/* Überschriften-Stile */
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkblue;
+  /* Weitere Überschriften-Stile nach Bedarf anpassen */
+}
+
+/* Link-Zustände */
+a:link {
+  color: #FF0000; /* Nicht besuchter Link */
+}
+a:visited {
+  color: #00FF00; /* Besuchter Link */
+}
+a:hover {
+  color: #FF00FF; /* Maus über Link */
+}
+a:active {
+  color: #0000FF; /* Ausgewählter Link */
+}
+
+/* Pseudo-Elemente */
+p::first-letter {
+  font-size: 2rem;
+  background-color: aqua;
+}
+
+a::before {
+  content:  " 👼 ";
+}
+
+a::after {
+  content: "🤓";
+}
+
+/* IDs */
+#ab2 {
+  margin-left: 3rem; /* Rand links anpassen nach Bedarf */
+}
+
+/* Klassen */
+.gaga {
+  background-color: pink;
+  color: crimson;
+}
+
+/* Strukturelle Selektoren */
+h2 > a {
+  font-family: monospace;
+}
+
+p > a {
+  font-family: cursive;
+}
+
+/* Nachfahre */
+nav a {
+  letter-spacing: 0.1rem;
+}
+
+/* Strukturelle Selektoren: first-child, last-child, nth-of-type() */
+/*
+  Gerade Zellen in ungeraden Zeilen und ungerade Zellen in geraden Zeilen
+*/
+
+#schach > tbody > tr:nth-of-type(2n+1) > td:nth-child(2n),
+#schach > tbody > tr:nth-of-type(2n) > td:nth-child(2n+1) {
+  background-color: black;
+}

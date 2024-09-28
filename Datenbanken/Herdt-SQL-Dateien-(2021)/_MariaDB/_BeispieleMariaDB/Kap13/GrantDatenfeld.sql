@@ -1,0 +1,1 @@
+GRANT UPDATE (stueck) ON t_lager TO fmueller; 

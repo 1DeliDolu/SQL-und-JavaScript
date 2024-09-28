@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Wenn im Schema dokumentiert werden soll,
+		verwenden Sie das documentation-Element 
+		innerhalb von annotation.
+		Das kann so an beliebigen kritischen Stellen 
+		im Schema erfolgen.
+		Neben dem documentation-Element, das für 
+		human-readable content gedacht ist, gibt es
+		das appinfo-Element, gedacht für maschinen-
+		lesbaren content.
+		Ein Beispiel für die Verwendung von appinfo ist das Schema 
+		für Datentyp-Definitionen:
+		http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/datatypes.html#schema
+		Ansonsten können Sie auch XML-Kommentare in Schema-Dateien verwenden.
+	</xs:documentation>
+	<!--  
+		Kommentar
+		Das ist ein Kommentar, der vom Parser ignoriert wird
+		
+		Doppelte Minuszeichen innerhalb des Kommntars sind nicht zulässig,
+		da sie das Ende des Kommentars einleiten.
+	-->
+	</xs:annotation>
+</xs:schema>

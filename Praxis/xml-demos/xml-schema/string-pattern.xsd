@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Einfaches Element mit Beschränkung durch ein Pattern, 
+		das einen Buchstaben an erster Stelle und
+		einen Unterstrich an zweiter Stelle verlangt,
+		danach 4 bis 6 kleine oder große Buchstaben ohne Sonderzeichen.
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="UserName">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<!-- <xs:pattern value="[A-Z~ÖÜÄ\.][a-z]" /> -->
+				<!-- <xs:pattern value="[A-Z-[D]]_[a-zA-Z]{4,6}" /> -->
+				<xs:pattern value="[\S].+[\S]" />
+				<!-- <xs:minLength value="1"/> -->
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

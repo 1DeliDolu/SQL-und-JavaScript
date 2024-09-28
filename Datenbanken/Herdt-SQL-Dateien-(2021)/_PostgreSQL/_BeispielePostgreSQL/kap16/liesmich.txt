@@ -1,0 +1,4 @@
+PostgreSQL unterstützt bis zum heutigen Zeitpunkt Trigger nur im Zusammenhang mit 
+zuvor programmierten benutzerdefinierten Funktionen, auf die in diesem Buch nicht 
+eingegengen wird.
+

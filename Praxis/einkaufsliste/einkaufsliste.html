@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufsliste</title>
+    <link rel="stylesheet" href="css/einkaufsliste.css">
+    <script src="js/einkaufsliste.js" defer></script>
+</head>
+<body>
+    <article>
+        <h1>Einkaufsliste</h1>
+        <p>Übung folgender JavaScript Features:</p>
+        <ul>
+            <li>Übernehmen von Daten aus Eingabefeld</li>
+            <li>Interaktives Erzeugen, Verschieben und Löschen von DOM-Knoten</li>
+            <li>Daten Speichern in und Auslesen aus localStorage</li>
+        </ul>
+        <section id="praxis-einkaufsliste">
+            <h2>Meine Einkaufsliste</h2>
+            <fieldset>
+              <legend>Items erfassen:</legend>
+              <label for="item">Neues Item:</label>
+              <input type="text" id="item" autofocus>
+              <button type="button" id="enter" title="Eintrag in Liste übernehmen"><span>Übernehmen</span></button>
+            </fieldset>
+            <section>
+              <h3>Aktionen</h3>
+              <button type="button" id="load" title="Liste aus Speicher laden"><span>Laden</span></button>
+              <button type="button" id="store" title="Liste speichern"><span>Speichern</span></button>
+              <button type="button" id="deleteall" title="Liste aus Speicher löschen"><span>Speicher Löschen</span></button>
+              <ul id="einkaufsliste"></ul>
+              <button type="button" id="up" title="Item nach oben verschieben"><span>Hoch</span></button>
+              <button type="button" id="down" title="Item nach unten verschieben"><span>Runter</span></button>
+              <button type="button" id="sortasc" title="Aufsteigend sortieren"><span>ASC</span></button>
+              <button type="button" id="sortdesc" title="Absteigend sortieren"><span>DESC</span></button>
+              <button type="button" id="delete" title="Ausgewähltes Item löschen"><span>Löschen</span></button>
+            </section>
+          </section>
+    </article>
+</body>
+</html>

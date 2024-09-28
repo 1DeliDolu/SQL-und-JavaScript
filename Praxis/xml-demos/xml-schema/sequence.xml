@@ -1,0 +1,10 @@
+<termin 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="sequence.xsd">
+  <betreff>Teambesprechung</betreff>
+  <ort>Teams Kanal</ort>
+  <von>2021-04-30T15:30:00</von>
+  <bis>2021-04-30T16:15:00</bis>
+  <teilnehmer>Hans Georg</teilnehmer>
+  <teilnehmer>Silke</teilnehmer>
+</termin>

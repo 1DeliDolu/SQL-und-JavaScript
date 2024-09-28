@@ -1,0 +1,87 @@
+- title: Modul SQL-Abfragen
+  file: /Modul-SQL-Abfragen
+- title: Einrichten der Demo-Datenbank
+  file: /Einrichten der Demo-Datenbank/Einrichten der Demo-Datenbank
+  sections:
+    - title: Wiederherstellung der Demo-Datenbank
+      file: /Einrichten der Demo-Datenbank/Wiederherstellung der Demo-Datenbank
+- title: Die Klauseln der SQL-Abfrage
+  file: /Die Klauseln der SQL-Abfrage/Die Klauseln der SQL-Abfrage
+  sections:
+    - title: Demo Klauseln der SQL-Abfrage
+      file: /Die Klauseln der SQL-Abfrage/Demo Klauseln der SQL-Abfrage
+- title: Einfache Abfragen
+  file: /Einfache Abfragen/Einfache Abfragen
+  sections:
+    - title: Demo Einfache Abfragen
+      file: /Einfache Abfragen/Demo Einfache Abfragen
+    - title: NULL Zustände abfragen und behandeln
+      file: /Einfache Abfragen/NULL Zustände abfragen und behandeln
+- title: Abfragen über mehrere Tabellen
+  file: /Abfragen über mehrere Tabellen/Abfragen über mehrere Tabellen
+  sections:
+    - title: Demo JOINs
+      file: /Abfragen über mehrere Tabellen/Demo JOINs
+    - title: Alte JOIN Syntax
+      file: /Abfragen über mehrere Tabellen/Alte JOIN Syntax
+- title: Abfragen kombinieren
+  file: /Abfragen kombinieren/Abfragen kombinieren
+  sections:
+    - title: 'UNION, UNION ALL, INTERSECT, EXCEPT'
+      file: '/Abfragen kombinieren/UNION, UNION ALL, INTERSECT, EXCEPT'
+    - title: Unterabfragen
+      file: /Abfragen kombinieren/Unterabfragen
+    - title: Tabellen Ausdrücke (Table Expressions)
+      file: /Abfragen kombinieren/Tabellen Ausdrücke
+- title: Datentypen umwandeln oder formatieren
+  file: /Datentypen umwandeln oder formatieren/Datentypen umwandeln oder formatieren
+  sections:
+    - title: Datentypumwandlung und Formatierung
+      file: /Datentypen umwandeln oder formatieren/Datentypumwandlung und Formatierung
+- title: Daten filtern
+  file: /Daten filtern/Daten filtern
+  sections:
+    - title: Wo kann ich filtern?
+      file: /Daten filtern/Wo-filtern
+    - title: Filtern nach Zeichenketten
+      file: /Daten filtern/Filter-LIKE
+- title: Weitere Grundlagen
+  file: /Weitere Grundlagen/Weitere Grundlagen
+  sections:
+    - title: Abfragen durch INDEX beschleunigen
+      file: /Weitere Grundlagen/Abfragen durch INDEX beschleunigen
+    - title: Simple CASE und Searched CASE
+      file: /Weitere Grundlagen/Simple CASE und Searched CASE
+    - title: String Funktionen
+      file: /Weitere Grundlagen/String Funktionen
+    - title: Datumsberechnungen
+      file: /Weitere Grundlagen/Datumsberechnungen
+    - title: Datenbestände blättern mit OFFSET und FETCH
+      file: /Weitere Grundlagen/Datenbestände blättern mit OFFSET und FETCH
+    - title: COLLATE Internationale Sortierweisen berücksichtigen
+      file: /Weitere Grundlagen/COLLATE Internationale Sortierweisen berücksichtigen
+    - title: TABLESAMPLE
+      file: /Weitere Grundlagen/TABLESAMPLE
+    - title: RANK und DENSE_RANK
+      file: /Weitere Grundlagen/RANK und DENSE_RANK
+- title: Fortgeschrittene Techniken
+  file: /Fortgeschrittene Techniken/Fortgeschrittene Techniken
+  sections:
+    - title: PIVOT und UNPIVOT
+      file: /Fortgeschrittene Techniken/PIVOT und UNPIVOT
+    - title: Daten mit MERGE aktualisieren
+      file: /Fortgeschrittene Techniken/Daten mit MERGE aktualisieren
+    - title: Row Level Security
+      file: /Fortgeschrittene Techniken/Row Level Security
+    - title: Dynamic Data Masking
+      file: /Fortgeschrittene Techniken/Dynamic Data Masking
+    - title: CROSS APPLY und OUTER APPLY
+      file: /Fortgeschrittene Techniken/CROSS APPLY und OUTER APPLY
+    - title: Recursive CTE
+      file: /Fortgeschrittene Techniken/Recursive CTE
+    - title: Temporal Tables
+      file: /Fortgeschrittene Techniken/Temporal Tables
+    - title: Abfragen mit XML
+      file: /Fortgeschrittene Techniken/Abfragen mit XML
+    - title: Abfragen mit JSON
+      file: /Fortgeschrittene Techniken/Abfragen mit JSON

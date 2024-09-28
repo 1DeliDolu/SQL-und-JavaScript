@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:esi="http://www.edge-delivery.org/esi/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Digital: Alles digital</title>
+    <link>http://newsfeed.zeit.de/</link>
+    <description>Internet, Schönes wie Kritisches zur Netzkultur, und ganz viel zum Spielen.</description>
+    <language>de-de</language>
+    <copyright>Copyright © 2016, ZEIT ONLINE GmbH</copyright>
+    <atom:link href="http://newsfeed.zeit.de/digital/index" type="application/rss+xml"/>
+    <docs>http://www.zeit.de/hilfe/rss</docs>
+    <generator>zeit.web 2.84</generator>
+    <managingEditor>online-cr.zeit.de (Chefredaktion ZEIT ONLINE)</managingEditor>
+    <webMaster>webmaster@zeit.de (Technik ZEIT ONLINE)</webMaster>
+    <image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>Digital: Alles digital</title>
+      <link>http://newsfeed.zeit.de/</link>
+    </image>
+    <item>
+      <title>Prepaidkarten: Anonymität wird zum Fall für den Menschengerichtshof</title>
+      <link>http://www.zeit.de/digital/datenschutz/2016-06/prepaid-karten-anonym-menschengerichtshof</link>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2016-06/prepaid-karten-anonym-menschengerichtshof"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/datenschutz/2016-06/prepaid-karten-anonym-menschengerichtshof-bild/wide__148x84"&gt;&lt;/a&gt; Die Bundesregierung will Käufer von Prepaidkarten schärfer kontrollieren lassen. Dabei verstößt vielleicht schon das bisherige Gesetz gegen die Menschenrechtskonvention.</description>
+      <category>Datenschutz</category>
+      <dc:creator>ZEIT ONLINE: Datenschutz - Patrick Beuth</dc:creator>
+      <pubDate>Wed, 08 Jun 2016 12:03:08 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/datenschutz/2016-06/prepaid-karten-anonym-menschengerichtshof</guid>
+    </item>
+    <item>
+      <title>Biometrie: Die Bundesregierung freut sich schon auf Gesichtserkennung</title>
+      <link>http://www.zeit.de/digital/datenschutz/2016-06/biometrie-bundesregierung-freut-sich-auf-gesichtserkennung</link>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2016-06/biometrie-bundesregierung-freut-sich-auf-gesichtserkennung"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/datenschutz/2016-06/biometrie-bundesregierung-freut-sich-auf-gesichtserkennung-bild/wide__148x84"&gt;&lt;/a&gt; In der EU-Datenbank Eurodac werden Fingerabdrücke von Flüchtlingen gespeichert. Nun sollen Gesichtsfotos dazukommen. Die Bundesregierung begrüßt das, die Linke warnt. </description>
+      <category>Datenschutz</category>
+      <dc:creator>ZEIT ONLINE: Datenschutz - Patrick Beuth</dc:creator>
+      <pubDate>Tue, 07 Jun 2016 17:33:40 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/datenschutz/2016-06/biometrie-bundesregierung-freut-sich-auf-gesichtserkennung</guid>
+    </item>
+    <item>
+      <title>Beleidigung auf Facebook: Schülerin wegen Lehrer-Beleidigung auf Facebook verurteilt</title>
+      <link>http://www.zeit.de/digital/2016-06/facebook-post-duesseldorf-beleidigung-lehrer-schuelerin</link>
+      <description>&lt;a href="http://www.zeit.de/digital/2016-06/facebook-post-duesseldorf-beleidigung-lehrer-schuelerin"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/facebook-beleidigung-lehrer-duesseldorf/wide__148x84"&gt;&lt;/a&gt; Sie postete ein Foto ihres Lehrers, versehen mit einem abschätzigen Kommentar: Eine 14-Jährige wurde dafür vom Düsseldorfer Amtsgericht zu Arbeitsstunden verurteilt.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - </dc:creator>
+      <pubDate>Tue, 07 Jun 2016 14:34:11 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/2016-06/facebook-post-duesseldorf-beleidigung-lehrer-schuelerin</guid>
+    </item>
+    <item>
+      <title>Datensicherheit: "Hacker behalten die Oberhand"</title>
+      <link>http://www.zeit.de/digital/datenschutz/2016-06/hacker-linkedin-vk-myspace-normalzustand</link>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2016-06/hacker-linkedin-vk-myspace-normalzustand"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/datenschutz/2016-06/hacker-blackhat/wide__148x84"&gt;&lt;/a&gt; MySpace, Tumblr, LinkedIn, VK: Mehr als 750 Millionen Nutzerdaten aus jahrealten Angriffen sind nun im Netz aufgetaucht. Gehacktwerden wird zum Normalzustand.</description>
+      <category>Datenschutz</category>
+      <dc:creator>ZEIT ONLINE: Datenschutz - Eike Kühl</dc:creator>
+      <pubDate>Tue, 07 Jun 2016 09:00:30 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/datenschutz/2016-06/hacker-linkedin-vk-myspace-normalzustand</guid>
+    </item>
+    <item>
+      <title>E-Sport: Und abends zum "Elektrosport"</title>
+      <link>http://www.zeit.de/digital/games/2016-06/esport-vereine-gemeinnuetzig-sportart-berlin</link>
+      <description>&lt;a href="http://www.zeit.de/digital/games/2016-06/esport-vereine-gemeinnuetzig-sportart-berlin"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/games/2016-06/esport-dreamhack/wide__148x84"&gt;&lt;/a&gt; Damit E-Sport zu einer anerkannten Sportart wird, benötigt er Verbandsstrukturen. Aber wollen und brauchen die Aktiven überhaupt Vereine?</description>
+      <category>Games</category>
+      <dc:creator>ZEIT ONLINE: Games - Sebastian Wochnik</dc:creator>
+      <pubDate>Mon, 06 Jun 2016 19:39:03 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/games/2016-06/esport-vereine-gemeinnuetzig-sportart-berlin</guid>
+    </item>
+    <item>
+      <title>Hacker: Jacob Appelbaum weist Nötigungsvorwürfe zurück</title>
+      <link>http://www.zeit.de/digital/internet/2016-06/hacker-jacob-appelbaum-weist-missbrauchsvorwuerfe-zurueck</link>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2016-06/hacker-jacob-appelbaum-weist-missbrauchsvorwuerfe-zurueck"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/hacker-jacob-apelbaum-weist-vorwuerfe-zurueck-bild/wide__148x84"&gt;&lt;/a&gt; Der Hacker und Aktivist bezeichnet die anonymen Vorwürfe gegen ihn als gezielte Attacke und als Versuch, seine Arbeit zu diskreditieren. Sie seien komplett falsch.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Patrick Beuth</dc:creator>
+      <pubDate>Mon, 06 Jun 2016 11:37:23 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/internet/2016-06/hacker-jacob-appelbaum-weist-missbrauchsvorwuerfe-zurueck</guid>
+    </item>
+    <item>
+      <title>Anonymous.Kollektiv: Hetze unterm Anonymous-Deckmantel</title>
+      <link>http://www.zeit.de/digital/internet/2016-06/anonymous-kollektiv-rechte-hetze</link>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2016-06/anonymous-kollektiv-rechte-hetze"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/anonymous-kollektiv-website/wide__148x84"&gt;&lt;/a&gt; Lange war Anonymous.Kollektiv Deutschlands größte Facebook-Seite, die sich zur berüchtigten Netzaktivisten-Bewegung zählte. Nun hetzen die rechten Betreiber anderswo.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Richard Diesing</dc:creator>
+      <pubDate>Mon, 06 Jun 2016 07:53:20 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/internet/2016-06/anonymous-kollektiv-rechte-hetze</guid>
+    </item>
+    <item>
+      <title>Tor-Projekt: Missbrauchsvorwürfe gegen Jacob Appelbaum</title>
+      <link>http://www.zeit.de/digital/internet/2016-06/tor-projekt-trennt-sich-von-jacob-appelbaum</link>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2016-06/tor-projekt-trennt-sich-von-jacob-appelbaum"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/jacob-appelbaum/wide__148x84"&gt;&lt;/a&gt; Der WikiLeaks-Aktivist und Snowden-Unterstützer soll mehrere Menschen sexuell genötigt haben. Appelbaum verlässt deshalb das Tor-Projekt, dessen Sprachrohr er lange war.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Patrick Beuth</dc:creator>
+      <pubDate>Sun, 05 Jun 2016 08:36:46 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/internet/2016-06/tor-projekt-trennt-sich-von-jacob-appelbaum</guid>
+    </item>
+    <item>
+      <title>Werbung: Wie Sie Facebook abschütteln</title>
+      <link>http://www.zeit.de/digital/datenschutz/2016-06/werbung-facebook-personalisiert-nicht-mitglieder</link>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2016-06/werbung-facebook-personalisiert-nicht-mitglieder"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/datenschutz/2016-06/facebook-werbung/wide__148x84"&gt;&lt;/a&gt; Auch wer kein Facebook-Mitglied ist, soll künftig personalisierte Werbung des sozialen Netzwerks angezeigt bekommen. Es gibt aber Wege, das zumindest einzuschränken.</description>
+      <category>Datenschutz</category>
+      <dc:creator>ZEIT ONLINE: Datenschutz - Eike Kühl</dc:creator>
+      <pubDate>Fri, 03 Jun 2016 13:39:03 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/datenschutz/2016-06/werbung-facebook-personalisiert-nicht-mitglieder</guid>
+    </item>
+    <item>
+      <title>Was bewegt Digita Shadow?: Der Schattenkrieger</title>
+      <link>http://www.zeit.de/2016/23/digita-shadow-hacker-kampf-islamischer-staat-netz</link>
+      <description>&lt;a href="http://www.zeit.de/2016/23/digita-shadow-hacker-kampf-islamischer-staat-netz"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/wirtschaft/2016-05/digita-shadow-hacker/wide__148x84"&gt;&lt;/a&gt; Im Netz kämpft der Hacker Digita Shadow mit seiner Ghost Security Group gegen den sogenannten Islamischen Staat. Unser Autor hat versucht, ihn zu treffen.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Jens Tönnesmann</dc:creator>
+      <pubDate>Fri, 03 Jun 2016 08:07:59 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/2016/23/digita-shadow-hacker-kampf-islamischer-staat-netz</guid>
+    </item>
+    <item>
+      <title>Videospiele: Wie in schlechten Filmen</title>
+      <link>http://www.zeit.de/digital/games/2016-06/games-erzaehlung-story-entwicklung</link>
+      <description>&lt;a href="http://www.zeit.de/digital/games/2016-06/games-erzaehlung-story-entwicklung"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/games/2016-06/life-is-strange/wide__148x84"&gt;&lt;/a&gt; Games sind Filmen und Literatur längst ebenbürtig, heißt es. Tatsächlich sind die meisten Erzählungen aber noch immer schlicht bis hochnotpeinlich. Muss das sein?</description>
+      <category>Games</category>
+      <dc:creator>ZEIT ONLINE: Games - Björn Wederhake</dc:creator>
+      <pubDate>Thu, 02 Jun 2016 18:34:12 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/games/2016-06/games-erzaehlung-story-entwicklung</guid>
+    </item>
+    <item>
+      <title>Internettrends: Wir werden viel mehr quatschen</title>
+      <link>http://www.zeit.de/digital/internet/2016-06/mary-meeker-internet-trends-2016-prognose</link>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2016-06/mary-meeker-internet-trends-2016-prognose"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/schild-smartphone/wide__148x84"&gt;&lt;/a&gt; Jedes Jahr veröffentlicht die Analystin Mary Meeker ihre Erkenntnisse und Prognosen zur Entwicklung des Internets. Wir stellen die wichtigsten aus ihrem neuen Report vor.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Eike Kühl</dc:creator>
+      <pubDate>Thu, 02 Jun 2016 17:45:46 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/internet/2016-06/mary-meeker-internet-trends-2016-prognose</guid>
+    </item>
+    <item>
+      <title>Bundestag: Niemand hat die Absicht, die Störerhaftung zu behalten</title>
+      <link>http://www.zeit.de/digital/internet/2016-06/bundestag-stoererhaftung-wlan-gesetz-beschlossen</link>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2016-06/bundestag-stoererhaftung-wlan-gesetz-beschlossen"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/bundestag-stoererhaftung-wlan-gesetz-beschlossen-bild/wide__148x84"&gt;&lt;/a&gt; Der Bundestag hat das WLAN-Gesetz beschlossen, mit dem die Koalition offene Netzwerke fördern und Abmahnabzocke beenden will. Kritiker sagen, diese Ziele würden verfehlt.</description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Patrick Beuth</dc:creator>
+      <pubDate>Thu, 02 Jun 2016 12:57:01 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/internet/2016-06/bundestag-stoererhaftung-wlan-gesetz-beschlossen</guid>
+    </item>
+    <item>
+      <title>Datensicherheit: Kein ungeschützter Verkehr im offenen WLAN</title>
+      <link>http://www.zeit.de/digital/datenschutz/2016-06/datensicherheit-schutz-im-offenen-wlan-vpn-tor</link>
+      <description>&lt;a href="http://www.zeit.de/digital/datenschutz/2016-06/datensicherheit-schutz-im-offenen-wlan-vpn-tor"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/datenschutz/2016-06/datensicherheit-wlan-berlin-vpn-tor-bild/wide__148x84"&gt;&lt;/a&gt; In Berlin wurden die ersten 100 von 2.000 geplanten WLAN-Hotspots in Betrieb genommen. Wir erklären, wie sich Nutzer vor Schnüfflern in diesen Netzwerken schützen können.</description>
+      <category>Datenschutz</category>
+      <dc:creator>ZEIT ONLINE: Datenschutz - Patrick Beuth</dc:creator>
+      <pubDate>Wed, 01 Jun 2016 15:20:53 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/datenschutz/2016-06/datensicherheit-schutz-im-offenen-wlan-vpn-tor</guid>
+    </item>
+    <item>
+      <title>Hasskommentare: Zuckerbrote gegen Hass im Netz</title>
+      <link>http://www.zeit.de/digital/internet/2016-06/hasskommentare-eu-selbstverpflichtung-facebook-google</link>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2016-06/hasskommentare-eu-selbstverpflichtung-facebook-google"&gt;&lt;img style="float:left; margin-right:5px" src="http://img.zeit.de/digital/internet/2016-06/facebook-zuckerberg/wide__148x84"&gt;&lt;/a&gt; Microsoft, YouTube, Facebook und Twitter wollen entschlossener gegen Hetze vorgehen. Dazu haben sie mit der EU-Kommission einen wachsweichen Verhaltenskodex erarbeitet. </description>
+      <category>Internet</category>
+      <dc:creator>ZEIT ONLINE: Internet - Eike Kühl</dc:creator>
+      <pubDate>Wed, 01 Jun 2016 13:53:13 -0000</pubDate>
+      <guid isPermaLink="false">http://www.zeit.de/digital/internet/2016-06/hasskommentare-eu-selbstverpflichtung-facebook-google</guid>
+    </item>
+  </channel>
+</rss>

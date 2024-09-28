@@ -1,0 +1,8 @@
+// Setup
+let myArray = [45, 64, 99];
+myArray[0] = 45;
+
+console.log(myArray); // Output: [45, 20, 30]
+
+
+// Only change code below this line

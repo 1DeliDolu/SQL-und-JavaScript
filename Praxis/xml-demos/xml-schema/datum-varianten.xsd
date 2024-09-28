@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Demo für den union-Inhaltstyp:
+		datumFlexible erlaubt die Eingabe des Datums in 3+ Formen
+		date	2008-08-14  oder  2008-08-19+01:00 mit Zeitzone
+		gYear	2009  nur das Jahr
+		gYearMonth	2008-08  Jahr und Monat
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="terminliste">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="termin" maxOccurs="unbounded" type="datumFlexible"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="datumFlexible">
+		<xs:union memberTypes="xs:date xs:gYearMonth xs:gYear" />
+	</xs:simpleType>
+</xs:schema>

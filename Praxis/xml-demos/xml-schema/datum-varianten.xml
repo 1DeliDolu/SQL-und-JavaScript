@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<terminliste 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="./datum-varianten.xsd">
+	<termin>2016-08-14</termin>
+	<termin>2008-08-19+01:00</termin>
+	<termin>2008-08</termin>
+	<termin>2009</termin>
+</terminliste>

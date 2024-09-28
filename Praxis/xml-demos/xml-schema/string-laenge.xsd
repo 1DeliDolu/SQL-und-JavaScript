@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Fassetten minLength und maxLength
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="UserName">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="6" />
+				<xs:maxLength value="8" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

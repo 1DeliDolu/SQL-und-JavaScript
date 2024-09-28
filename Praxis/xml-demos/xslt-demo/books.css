@@ -1,0 +1,25 @@
+/* Stylesheet für Books */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+
+/* Horror und Fantasy sollen hervorgehoben werden 
+  das tr bekommt class="horrorbook" wenn genre="Horror"
+  das tr bekommt class="fantasybook" wenn genre="Fantasy"
+  <xsl:choose>
+*/
+
+.horrorbook { background-color: #F00; }
+.fantasybook { background-color: #0F0; }
+
+table { width: 54rem; font-size: 0.85rem; }
+th { text-align: left; }
+td, th { padding: 0.1rem 0.6rem; }
+tbody > tr > td:nth-of-type(6),
+tbody > tr > td:nth-of-type(1)  { text-align: right;}
+
+/* Stylesheet für Books */

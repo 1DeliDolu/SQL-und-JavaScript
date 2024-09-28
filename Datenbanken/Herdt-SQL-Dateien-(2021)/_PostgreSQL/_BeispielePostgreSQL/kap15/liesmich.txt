@@ -1,0 +1,4 @@
+PostgreSQL bietet eine Programmierung benutzerdefinierter Funktionen mittels 
+verschiedener Programmiersprachen.
+Stored Procedures im klassischen Sinne werden in der aktuellen Version nicht 
+unterstützt.

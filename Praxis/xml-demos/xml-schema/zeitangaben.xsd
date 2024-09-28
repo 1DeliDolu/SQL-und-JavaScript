@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation xml:lang="de">
+		Demo verschiedener Möglichkeiten der Zeitangabe
+		xs:time			täglich wiederkehrende Zeit
+		xs:dateTime		Zeitmoment an einem bestimmten Datum
+		xs:duration		Zeitdauer
+		sind als union-Typ für das Element zeit definiert
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="zeitangaben">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="zeit" type="zeitangabentyp" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="zeitangabentyp">
+		<xs:union memberTypes="xs:time xs:dateTime xs:duration" />
+	</xs:simpleType>
+</xs:schema>

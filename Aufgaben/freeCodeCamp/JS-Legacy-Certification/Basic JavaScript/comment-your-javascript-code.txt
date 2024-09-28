@@ -1,0 +1,4 @@
+// Dies ist ein einzeiliger Kommentar.
+ 
+/* Dies ist ein
+mehrzeiliger Kommentar */

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<zeitangaben xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="./zeitangaben.xsd">
+	<!-- Zeit muss mit Stunde, Minute und Sekunde angegeben werden -->
+	<zeit>16:23:30</zeit>
+	<!-- Zeitangabe mit Zeitzone -->
+	<zeit>16:23:05+01:00</zeit>
+	<!-- Sekundenbruchteile -->
+	<zeit>16:23:10.234</zeit>
+	<!-- Zeit an Datum, Z steht für GMT Zeitzone -->
+	<zeit>2008-08-15T16:23:10.234Z</zeit>
+	<!-- Zeit mit Zeitzone -->
+	<zeit>2008-08-15T16:23:10.234+01:00</zeit>
+	<!-- Zeitdauer, P für Period
+		9 Monate und 4 Tage -->
+	<zeit>P9M4D</zeit>
+	<!-- 1 Jahr 2 Monate 3 Tage 10 Std. 30 Minuten 12,3 Sekunden -->
+	<zeit>P1Y2M3DT10H30M5.3S</zeit>
+	<zeit>P1Y2M3DT10H30M12.3S</zeit>
+	<zeit>P1Y2M3DT2H30M12.3S</zeit>
+	<!-- negative Dauer ist zulässig -->
+	<zeit>-P3D</zeit>
+</zeitangaben>
